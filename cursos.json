@@ -3,6 +3,7 @@
         {
             "id": 0,
             "curso": "BIOTECNOLOGIA - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3330",
             "periodos": {
                 "0º Período": {
                     "chTotal": "705h",
@@ -135,6 +136,7 @@
         {
             "id": 1,
             "curso": "AGRONOMIA - Areia - Presencial - MT - BACHARELADO",
+            "chMinima": "3960",
             "periodos": {
                 "0º Período": {
                     "chTotal": "420h",
@@ -325,6 +327,7 @@
         {
             "id": 2,
             "curso": "CIÊNCIAS BIOLÓGICAS - Areia - Presencial - MT - LICENCIATURA",
+            "chMinima": "3225",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1650h",
@@ -457,6 +460,7 @@
         {
             "id": 3,
             "curso": "MEDICINA VETERINÁRIA - Areia - Presencial - MT - BACHARELADO",
+            "chMinima": "4350",
             "periodos": {
                 "0º Período": {
                     "chTotal": "737h",
@@ -630,6 +634,7 @@
         {
             "id": 4,
             "curso": "MEDICINA VETERINÁRIA - Patos - Presencial - M - BACHARELADO",
+            "chMinima": "4200",
             "periodos": {
                 "0º Período": {
                     "chTotal": "360h",
@@ -750,6 +755,7 @@
         {
             "id": 5,
             "curso": "QUÍMICA - Areia - Presencial - N - LICENCIATURA",
+            "chMinima": "2940",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1305h",
@@ -879,6 +885,7 @@
         {
             "id": 6,
             "curso": "ZOOTECNIA - Areia - Presencial - MT - BACHARELADO",
+            "chMinima": "4005",
             "periodos": {
                 "0º Período": {
                     "chTotal": "780h",
@@ -1048,6 +1055,7 @@
         {
             "id": 7,
             "curso": "ADMINISTRAÇÃO - Mamanguape - Presencial - MT - BACHARELADO",
+            "chMinima": "3000",
             "periodos": {
                 "0º Período": {
                     "chTotal": "180h",
@@ -1154,6 +1162,7 @@
         {
             "id": 8,
             "curso": "ANTROPOLOGIA - Rio Tinto - Presencial - ANTROP VISUAL - N - BACHARELADO",
+            "chMinima": "2625",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1440h",
@@ -1268,6 +1277,7 @@
         {
             "id": 9,
             "curso": "CIÊNCIA DA COMPUTAÇÃO - Rio Tinto - Presencial - MT - LICENCIATURA",
+            "chMinima": "3015",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1725h",
@@ -1410,6 +1420,7 @@
         {
             "id": 10,
             "curso": "CIÊNCIAS CONTÁBEIS - Mamanguape - Presencial - N - BACHARELADO",
+            "chMinima": "3000",
             "periodos": {
                 "0º Período": {
                     "chTotal": "3960h",
@@ -1582,6 +1593,7 @@
         {
             "id": 11,
             "curso": "DESIGN - Rio Tinto - Presencial - MT - BACHARELADO",
+            "chMinima": "2820",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1770h",
@@ -1710,6 +1722,7 @@
         {
             "id": 12,
             "curso": "ECOLOGIA - Rio Tinto - Presencial - MT - BACHARELADO",
+            "chMinima": "2820",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1290h",
@@ -1853,6 +1866,7 @@
         {
             "id": 13,
             "curso": "LETRAS - ESPANHOL - Mamanguape - A Distância - MT - LICENCIATURA",
+            "chMinima": "3000",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1005h",
@@ -1974,6 +1988,7 @@
         {
             "id": 14,
             "curso": "LETRAS - INGLÊS - Mamanguape - A Distância - MT - LICENCIATURA",
+            "chMinima": "3000",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1650h",
@@ -2095,6 +2110,7 @@
         {
             "id": 15,
             "curso": "LETRAS - LÍNGUA PORTUGUESA - Mamanguape - Presencial - T - LICENCIATURA",
+            "chMinima": "2910",
             "periodos": {
                 "0º Período": {
                     "chTotal": "960h",
@@ -2206,6 +2222,7 @@
         {
             "id": 16,
             "curso": "MATEMÁTICA (LICENCIATURA) - Rio Tinto - Presencial - N - LICENCIATURA",
+            "chMinima": "2805",
             "periodos": {
                 "0º Período": {
                     "chTotal": "300h",
@@ -2318,6 +2335,7 @@
         {
             "id": 17,
             "curso": "PEDAGOGIA - Mamanguape - Presencial - N - LICENCIATURA",
+            "chMinima": "3480",
             "periodos": {
                 "0º Período": {
                     "chTotal": "945h",
@@ -2439,6 +2457,7 @@
         {
             "id": 18,
             "curso": "SECRETARIADO EXECUTIVO BILÍNGUE - Mamanguape - Presencial - N - BACHARELADO",
+            "chMinima": "2715",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1335h",
@@ -2573,6 +2592,7 @@
         {
             "id": 19,
             "curso": "SISTEMAS DE INFORMAÇÃO - Rio Tinto - Presencial - MT - BACHARELADO",
+            "chMinima": "3000",
             "periodos": {
                 "0º Período": {
                     "chTotal": "360h",
@@ -2685,6 +2705,7 @@
         {
             "id": 20,
             "curso": "BIOMEDICINA - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3585",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1290h",
@@ -2848,6 +2869,7 @@
         {
             "id": 21,
             "curso": "EDUCAÇÃO FÍSICA - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3255",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1125h",
@@ -2986,6 +3008,7 @@
         {
             "id": 22,
             "curso": "EDUCAÇÃO FÍSICA - LICENCIATURA - João Pessoa - Presencial - MT - LICENCIATURA",
+            "chMinima": "3135",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1680h",
@@ -3132,6 +3155,7 @@
         {
             "id": 23,
             "curso": "ENFERMAGEM - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3285",
             "periodos": {
                 "0º Período": {
                     "chTotal": "3000h",
@@ -3261,6 +3285,7 @@
         {
             "id": 24,
             "curso": "FARMÁCIA - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3015",
             "periodos": {
                 "0º Período": {
                     "chTotal": "4275h",
@@ -3390,6 +3415,7 @@
         {
             "id": 25,
             "curso": "FISIOTERAPIA - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "4500",
             "periodos": {
                 "0º Período": {
                     "chTotal": "825h",
@@ -3547,6 +3573,7 @@
         {
             "id": 26,
             "curso": "FONOAUDIOLOGIA - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3600",
             "periodos": {
                 "0º Período": {
                     "chTotal": "480h",
@@ -3672,6 +3699,7 @@
         {
             "id": 27,
             "curso": "NUTRIÇÃO - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3345",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1459h",
@@ -3808,6 +3836,7 @@
         {
             "id": 28,
             "curso": "ODONTOLOGIA - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "4500",
             "periodos": {
                 "0º Período": {
                     "chTotal": "2374h",
@@ -3997,6 +4026,7 @@
         {
             "id": 29,
             "curso": "TERAPIA OCUPACIONAL - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3450",
             "periodos": {
                 "0º Período": {
                     "chTotal": "975h",
@@ -4110,6 +4140,7 @@
         {
             "id": 30,
             "curso": "CIÊNCIAS - Cajazeiras - Presencial - QUÍMICA - M - LICENCIATURA",
+            "chMinima": "2955",
             "periodos": {
                 "0º Período": {
                     "chTotal": "570h",
@@ -4179,6 +4210,7 @@
         {
             "id": 31,
             "curso": "CIÊNCIAS BIOLÓGICAS - João Pessoa - Presencial - MT - LICENCIATURA",
+            "chMinima": "3540",
             "periodos": {
                 "0º Período": {
                     "chTotal": "0h",
@@ -4287,6 +4319,7 @@
         {
             "id": 32,
             "curso": "CIÊNCIAS BIOLÓGICAS - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3120",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1275h",
@@ -4479,6 +4512,7 @@
         {
             "id": 33,
             "curso": "CIÊNCIAS BIOLÓGICAS - EAD - João Pessoa - A Distância - MT - LICENCIATURA",
+            "chMinima": "3300",
             "periodos": {
                 "0º Período": {
                     "chTotal": "0h",
@@ -4586,6 +4620,7 @@
         {
             "id": 34,
             "curso": "ESTATÍSTICA - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3000",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1680h",
@@ -4707,6 +4742,7 @@
         {
             "id": 35,
             "curso": "FÍSICA - João Pessoa - Presencial - N - LICENCIATURA",
+            "chMinima": "2760",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1665h",
@@ -4838,6 +4874,7 @@
         {
             "id": 36,
             "curso": "GEOGRAFIA - João Pessoa - Presencial - N - BACHARELADO",
+            "chMinima": "2400",
             "periodos": {
                 "0º Período": {
                     "chTotal": "3165h",
@@ -4961,6 +4998,7 @@
         {
             "id": 37,
             "curso": "GEOGRAFIA - João Pessoa - Presencial - N - LICENCIATURA",
+            "chMinima": "3015",
             "periodos": {
                 "0º Período": {
                     "chTotal": "4290h",
@@ -5128,6 +5166,7 @@
         {
             "id": 38,
             "curso": "MATEMÁTICA - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "2895",
             "periodos": {
                 "0º Período": {
                     "chTotal": "765h",
@@ -5248,6 +5287,7 @@
         {
             "id": 39,
             "curso": "MATEMÁTICA - EAD - João Pessoa - A Distância - MT - LICENCIATURA",
+            "chMinima": "2865",
             "periodos": {
                 "0º Período": {
                     "chTotal": "0h",
@@ -5343,6 +5383,7 @@
         {
             "id": 40,
             "curso": "QUÍMICA - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3000",
             "periodos": {
                 "0º Período": {
                     "chTotal": "2175h",
@@ -5484,6 +5525,7 @@
         {
             "id": 41,
             "curso": "CIÊNCIAS SOCIAIS - Campina Grande - Presencial - MT - BACHARELADO",
+            "chMinima": "2775",
             "periodos": {
                 "0º Período": {
                     "chTotal": "405h",
@@ -5553,6 +5595,7 @@
         {
             "id": 42,
             "curso": "CIÊNCIAS SOCIAIS - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "2820",
             "periodos": {
                 "0º Período": {
                     "chTotal": "840h",
@@ -5701,6 +5744,7 @@
         {
             "id": 43,
             "curso": "COMUNICAÇÃO EM MÍDIAS DIGITAIS - João Pessoa - Presencial - T - BACHARELADO",
+            "chMinima": "3360",
             "periodos": {
                 "0º Período": {
                     "chTotal": "2190h",
@@ -5899,6 +5943,7 @@
         {
             "id": 44,
             "curso": "FILOSOFIA - João Pessoa - Presencial - N - LICENCIATURA",
+            "chMinima": "2760",
             "periodos": {
                 "0º Período": {
                     "chTotal": "4350h",
@@ -6062,6 +6107,7 @@
         {
             "id": 45,
             "curso": "HISTÓRIA - Cajazeiras - Presencial - N - LICENCIATURA",
+            "chMinima": "2340",
             "periodos": {
                 "0º Período": {
                     "chTotal": "0h",
@@ -6137,6 +6183,7 @@
         {
             "id": 46,
             "curso": "HISTÓRIA - Campina Grande - Presencial - MT - LICENCIATURA",
+            "chMinima": "2670",
             "periodos": {
                 "0º Período": {
                     "chTotal": "0h",
@@ -6221,6 +6268,7 @@
         {
             "id": 47,
             "curso": "HISTÓRIA - João Pessoa - Presencial - MT - LICENCIATURA",
+            "chMinima": "3210",
             "periodos": {
                 "0º Período": {
                     "chTotal": "8130h",
@@ -6458,6 +6506,7 @@
         {
             "id": 48,
             "curso": "HISTORIA ( MSC) - João Pessoa - Presencial - MOVIMENTOS SOCIAIS DO CAMPO - MT - LICENCIATURA",
+            "chMinima": "2865",
             "periodos": {
                 "0º Período": {
                     "chTotal": "4395h",
@@ -6580,6 +6629,7 @@
         {
             "id": 49,
             "curso": "LETRAS - ESPANHOL - João Pessoa - Presencial - MT - LICENCIATURA",
+            "chMinima": "3210",
             "periodos": {
                 "0º Período": {
                     "chTotal": "2070h",
@@ -6711,6 +6761,7 @@
         {
             "id": 50,
             "curso": "LETRAS - FRANCÊS - João Pessoa - Presencial - LING. FRANCESA - N - LICENCIATURA",
+            "chMinima": "3210",
             "periodos": {
                 "0º Período": {
                     "chTotal": "960h",
@@ -6834,6 +6885,7 @@
         {
             "id": 51,
             "curso": "LETRAS - INGLÊS - João Pessoa - Presencial - LING. INGLESA - N - LICENCIATURA",
+            "chMinima": "3210",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1680h",
@@ -6967,6 +7019,7 @@
         {
             "id": 52,
             "curso": "LETRAS - LETRAS CLÁSSICAS (GREGO E LATIM) - João Pessoa - Presencial - N - LICENCIATURA",
+            "chMinima": "3210",
             "periodos": {
                 "0º Período": {
                     "chTotal": "2445h",
@@ -7154,6 +7207,7 @@
         {
             "id": 53,
             "curso": "LETRAS - LIBRAS - João Pessoa - A Distância - MT - LICENCIATURA",
+            "chMinima": "2820",
             "periodos": {
                 "0º Período": {
                     "chTotal": "420h",
@@ -7265,6 +7319,7 @@
         {
             "id": 54,
             "curso": "LETRAS - LINGUA PORTUGUESA - João Pessoa - A Distância - MT - LICENCIATURA",
+            "chMinima": "2880",
             "periodos": {
                 "0º Período": {
                     "chTotal": "60h",
@@ -7370,6 +7425,7 @@
         {
             "id": 55,
             "curso": "LETRAS - LÍNGUA PORTUGUESA - João Pessoa - Presencial - N - LICENCIATURA",
+            "chMinima": "1380",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1215h",
@@ -7582,6 +7638,7 @@
         {
             "id": 56,
             "curso": "LÍNGUAS ESTRANGEIRAS APLICADAS ÀS NEGOCIAÇÕES INTERNACIONAIS - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3165",
             "periodos": {
                 "0º Período": {
                     "chTotal": "31590h",
@@ -8229,6 +8286,7 @@
         {
             "id": 57,
             "curso": "PSICOLOGIA - João Pessoa - Presencial - FORMACAO DE PSICOLOGO - MT - BACHARELADO",
+            "chMinima": "4005",
             "periodos": {
                 "0º Período": {
                     "chTotal": "465h",
@@ -8409,6 +8467,7 @@
         {
             "id": 58,
             "curso": "SERVIÇO SOCIAL - João Pessoa - Presencial - T - BACHARELADO",
+            "chMinima": "3000",
             "periodos": {
                 "0º Período": {
                     "chTotal": "2955h",
@@ -8541,6 +8600,7 @@
         {
             "id": 59,
             "curso": "TRADUÇÃO - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "2400",
             "periodos": {
                 "0º Período": {
                     "chTotal": "7470h",
@@ -8748,6 +8808,7 @@
         {
             "id": 60,
             "curso": "ADMINISTRAÇÃO - Bananeiras - Presencial - N - BACHARELADO",
+            "chMinima": "3000",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1110h",
@@ -8862,6 +8923,7 @@
         {
             "id": 61,
             "curso": "AGROECOLOGIA - Bananeiras - Presencial - MT - BACHARELADO",
+            "chMinima": "3915",
             "periodos": {
                 "0º Período": {
                     "chTotal": "705h",
@@ -9006,6 +9068,7 @@
         {
             "id": 62,
             "curso": "AGROINDÚSTRIA - Bananeiras - Presencial - MT - BACHARELADO",
+            "chMinima": "3570",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1275h",
@@ -9145,6 +9208,7 @@
         {
             "id": 63,
             "curso": "CIÊNCIAS AGRÁRIAS - Bananeiras - Presencial - MT - LICENCIATURA",
+            "chMinima": "3075",
             "periodos": {
                 "0º Período": {
                     "chTotal": "4430h",
@@ -9335,6 +9399,7 @@
         {
             "id": 64,
             "curso": "CIÊNCIAS AGRÁRIAS -EAD - Bananeiras - A Distância - MT - LICENCIATURA",
+            "chMinima": "3030",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1020h",
@@ -9481,6 +9546,7 @@
         {
             "id": 65,
             "curso": "PEDAGOGIA - Bananeiras - Presencial - MT - LICENCIATURA",
+            "chMinima": "3210",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1740h",
@@ -9616,6 +9682,7 @@
         {
             "id": 66,
             "curso": "DIREITO - João Pessoa - Presencial - N - BACHARELADO",
+            "chMinima": "4245",
             "periodos": {
                 "0º Período": {
                     "chTotal": "720h",
@@ -9772,6 +9839,7 @@
         {
             "id": 67,
             "curso": "DIREITO - Santa Rita - Presencial - MT - BACHARELADO",
+            "chMinima": "3705",
             "periodos": {
                 "0º Período": {
                     "chTotal": "600h",
@@ -9931,6 +9999,7 @@
         {
             "id": 68,
             "curso": "DIREITO - Sousa - Presencial - N - BACHARELADO",
+            "chMinima": "3150",
             "periodos": {
                 "0º Período": {
                     "chTotal": "360h",
@@ -10004,6 +10073,7 @@
         {
             "id": 69,
             "curso": "MEDICINA - Campina Grande - Presencial - MT - BACHARELADO",
+            "chMinima": "6780",
             "periodos": {
                 "0º Período": {
                     "chTotal": "600h",
@@ -10136,6 +10206,7 @@
         {
             "id": 70,
             "curso": "MEDICINA - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "8340",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1112h",
@@ -10317,6 +10388,7 @@
         {
             "id": 71,
             "curso": "ADMINISTRAÇÃO - Campina Grande - Presencial - ADMINISTRAÇÃO DE EMPRESA - MT - BACHARELADO",
+            "chMinima": "2880",
             "periodos": {
                 "0º Período": {
                     "chTotal": "0h",
@@ -10376,6 +10448,7 @@
         {
             "id": 72,
             "curso": "ADMINISTRAÇÃO - João Pessoa - Presencial - N - BACHARELADO",
+            "chMinima": "3000",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1530h",
@@ -10499,6 +10572,7 @@
         {
             "id": 73,
             "curso": "ADMINISTRAÇÃO PÚBLICA - João Pessoa - A Distância - MT - BACHARELADO",
+            "chMinima": "3000",
             "periodos": {
                 "0º Período": {
                     "chTotal": "180h",
@@ -10613,6 +10687,7 @@
         {
             "id": 74,
             "curso": "ARQUIVOLOGIA - João Pessoa - Presencial - N - BACHARELADO",
+            "chMinima": "2760",
             "periodos": {
                 "0º Período": {
                     "chTotal": "2040h",
@@ -10751,6 +10826,7 @@
         {
             "id": 75,
             "curso": "BIBLIOTECONOMIA - João Pessoa - Presencial - T - BACHARELADO",
+            "chMinima": "2760",
             "periodos": {
                 "0º Período": {
                     "chTotal": "240h",
@@ -10847,6 +10923,7 @@
         {
             "id": 76,
             "curso": "CIÊNCIA DE DADOS PARA NEGÓCIOS - João Pessoa - Presencial - T - BACHARELADO",
+            "chMinima": "2850",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1230h",
@@ -10977,6 +11054,7 @@
         {
             "id": 77,
             "curso": "CIÊNCIAS ATUARIAIS - João Pessoa - Presencial - N - BACHARELADO",
+            "chMinima": "3000",
             "periodos": {
                 "0º Período": {
                     "chTotal": "900h",
@@ -11101,6 +11179,7 @@
         {
             "id": 78,
             "curso": "CIÊNCIAS CONTÁBEIS - João Pessoa - Presencial - N - BACHARELADO",
+            "chMinima": "3060",
             "periodos": {
                 "0º Período": {
                     "chTotal": "2910h",
@@ -11253,6 +11332,7 @@
         {
             "id": 79,
             "curso": "CIÊNCIAS ECONÔMICAS - João Pessoa - Presencial - N - BACHARELADO",
+            "chMinima": "3000",
             "periodos": {
                 "0º Período": {
                     "chTotal": "900h",
@@ -11399,6 +11479,7 @@
         {
             "id": 80,
             "curso": "GESTÃO PÚBLICA - João Pessoa - Presencial - T - BACHARELADO",
+            "chMinima": "3000",
             "periodos": {
                 "0º Período": {
                     "chTotal": "2430h",
@@ -11520,6 +11601,7 @@
         {
             "id": 81,
             "curso": "RELACÕES INTERNACIONAIS - João Pessoa - Presencial - N - BACHARELADO",
+            "chMinima": "2880",
             "periodos": {
                 "0º Período": {
                     "chTotal": "2820h",
@@ -11665,6 +11747,7 @@
         {
             "id": 82,
             "curso": "TECNOLOGIA EM GESTÃO PÚBLICA - João Pessoa - Presencial - N - TECNOLÓGICO",
+            "chMinima": "2100",
             "periodos": {
                 "0º Período": {
                     "chTotal": "120h",
@@ -11749,6 +11832,7 @@
         {
             "id": 83,
             "curso": "ARTES VISUAIS - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "2745",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1290h",
@@ -11869,6 +11953,7 @@
         {
             "id": 84,
             "curso": "CINEMA E AUDIOVISUAL - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "2700",
             "periodos": {
                 "0º Período": {
                     "chTotal": "2445h",
@@ -11996,6 +12081,7 @@
         {
             "id": 85,
             "curso": "DANÇA - João Pessoa - Presencial - MT - LICENCIATURA",
+            "chMinima": "3210",
             "periodos": {
                 "0º Período": {
                     "chTotal": "3225h",
@@ -12139,6 +12225,7 @@
         {
             "id": 86,
             "curso": "HOTELARIA - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "2400",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1905h",
@@ -12250,6 +12337,7 @@
         {
             "id": 87,
             "curso": "JORNALISMO - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3180",
             "periodos": {
                 "0º Período": {
                     "chTotal": "2460h",
@@ -12370,6 +12458,7 @@
         {
             "id": 88,
             "curso": "MÚSICA - João Pessoa - Presencial - PRATICAS INTERPRETATIVAS - MT - LICENCIATURA",
+            "chMinima": "2970",
             "periodos": {
                 "0º Período": {
                     "chTotal": "6450h",
@@ -12797,6 +12886,7 @@
         {
             "id": 89,
             "curso": "MÚSICA - BACHARELADO - João Pessoa - Presencial - INSTRUMENTO - MT - BACHARELADO",
+            "chMinima": "2460",
             "periodos": {
                 "0º Período": {
                     "chTotal": "12210h",
@@ -13233,6 +13323,7 @@
         {
             "id": 90,
             "curso": "RADIALISMO - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "2700",
             "periodos": {
                 "0º Período": {
                     "chTotal": "7110h",
@@ -13433,6 +13524,7 @@
         {
             "id": 91,
             "curso": "REGÊNCIA DE BANDAS E FANFARRAS - João Pessoa - Presencial - N - OUTRO TIPO DE GRAU ACADÊMICO",
+            "chMinima": "1620",
             "periodos": {
                 "0º Período": {
                     "chTotal": "150h",
@@ -13512,6 +13604,7 @@
         {
             "id": 92,
             "curso": "RELAÇÕES PÚBLICAS - João Pessoa - Presencial - N - BACHARELADO",
+            "chMinima": "3210",
             "periodos": {
                 "0º Período": {
                     "chTotal": "7200h",
@@ -13721,6 +13814,7 @@
         {
             "id": 93,
             "curso": "TEATRO (BACHARELADO) - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "2400",
             "periodos": {
                 "0º Período": {
                     "chTotal": "3405h",
@@ -13860,6 +13954,7 @@
         {
             "id": 94,
             "curso": "TEATRO (LICENCIATURA) - João Pessoa - Presencial - MT - LICENCIATURA",
+            "chMinima": "3240",
             "periodos": {
                 "0º Período": {
                     "chTotal": "3885h",
@@ -14015,6 +14110,7 @@
         {
             "id": 95,
             "curso": "TURISMO - João Pessoa - Presencial - PLANEJAMENTO E ORG. DO TURISMO - N - BACHARELADO",
+            "chMinima": "2490",
             "periodos": {
                 "0º Período": {
                     "chTotal": "2685h",
@@ -14150,6 +14246,7 @@
         {
             "id": 96,
             "curso": "CIÊNCIAS DAS RELIGIÕES - João Pessoa - Presencial - T - LICENCIATURA",
+            "chMinima": "2880",
             "periodos": {
                 "0º Período": {
                     "chTotal": "2070h",
@@ -14287,6 +14384,7 @@
         {
             "id": 97,
             "curso": "PEDAGOGIA - Cajazeiras - Presencial - SUPERVISÃO ESCOLAR - M - LICENCIATURA PLENA",
+            "chMinima": "2340",
             "periodos": {
                 "0º Período": {
                     "chTotal": "195h",
@@ -14367,6 +14465,7 @@
         {
             "id": 98,
             "curso": "PEDAGOGIA - Campina Grande - Presencial - M - LICENCIATURA PLENA",
+            "chMinima": "2415",
             "periodos": {
                 "0º Período": {
                     "chTotal": "390h",
@@ -14436,6 +14535,7 @@
         {
             "id": 99,
             "curso": "PEDAGOGIA - João Pessoa - Presencial - SUPERVISAO ESCOLAR - N - LICENCIATURA",
+            "chMinima": "2295",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1785h",
@@ -14583,6 +14683,7 @@
         {
             "id": 100,
             "curso": "PEDAGOGIA - EAD - João Pessoa - A Distância - MT - LICENCIATURA",
+            "chMinima": "3300",
             "periodos": {
                 "0º Período": {
                     "chTotal": "645h",
@@ -14701,6 +14802,7 @@
         {
             "id": 101,
             "curso": "PEDAGOGIA - EDUCAÇÃO DO CAMPO - João Pessoa - Presencial - N - LICENCIATURA",
+            "chMinima": "3210",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1095h",
@@ -14819,6 +14921,7 @@
         {
             "id": 102,
             "curso": "PEDAGOGIA (MSC) - João Pessoa - Presencial - MAG ANOS INIC PEC MSC - MT - LICENCIATURA",
+            "chMinima": "3210",
             "periodos": {
                 "0º Período": {
                     "chTotal": "0h",
@@ -14917,6 +15020,7 @@
         {
             "id": 103,
             "curso": "PSICOPEDAGOGIA (BACH) - João Pessoa - Presencial - T - BACHARELADO",
+            "chMinima": "2835",
             "periodos": {
                 "0º Período": {
                     "chTotal": "210h",
@@ -15021,6 +15125,7 @@
         {
             "id": 104,
             "curso": "ENGENHARIA DE ENERGIAS RENOVÁVEIS - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3855",
             "periodos": {
                 "0º Período": {
                     "chTotal": "210h",
@@ -15159,6 +15264,7 @@
         {
             "id": 105,
             "curso": "ENGENHARIA ELÉTRICA - Campina Grande - Presencial - MT - BACHARELADO",
+            "chMinima": "3690",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1825h",
@@ -15248,6 +15354,7 @@
         {
             "id": 106,
             "curso": "ENGENHARIA ELÉTRICA - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3765",
             "periodos": {
                 "0º Período": {
                     "chTotal": "120h",
@@ -15373,6 +15480,7 @@
         {
             "id": 107,
             "curso": "CIÊNCIA DA COMPUTAÇÃO - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3270",
             "periodos": {
                 "0º Período": {
                     "chTotal": "2535h",
@@ -15534,6 +15642,7 @@
         {
             "id": 108,
             "curso": "CIÊNCIA DE DADOS E INTELIGÊNCIA ARTIFICIAL - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3000",
             "periodos": {
                 "0º Período": {
                     "chTotal": "330h",
@@ -15642,6 +15751,7 @@
         {
             "id": 109,
             "curso": "COMPUTAÇÃO - João Pessoa - A Distância - MT - LICENCIATURA",
+            "chMinima": "2895",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1215h",
@@ -15757,6 +15867,7 @@
         {
             "id": 110,
             "curso": "ENGENHARIA DA COMPUTAÇÃO - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3735",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1980h",
@@ -15907,6 +16018,7 @@
         {
             "id": 111,
             "curso": "MATEMÁTICA COMPUTACIONAL - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3120",
             "periodos": {
                 "0º Período": {
                     "chTotal": "660h",
@@ -16022,6 +16134,7 @@
         {
             "id": 112,
             "curso": "ARQUITETURA E URBANISMO - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3645",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1320h",
@@ -16164,6 +16277,7 @@
         {
             "id": 113,
             "curso": "CIÊNCIA DA COMPUTAÇÃO - Campina Grande - Presencial - MT - BACHARELADO",
+            "chMinima": "3210",
             "periodos": {
                 "0º Período": {
                     "chTotal": "435h",
@@ -16234,6 +16348,7 @@
         {
             "id": 114,
             "curso": "ENGENHARIA AMBIENTAL - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3990",
             "periodos": {
                 "0º Período": {
                     "chTotal": "930h",
@@ -16391,6 +16506,7 @@
         {
             "id": 115,
             "curso": "ENGENHARIA CIVIL - Campina Grande - Presencial - MT - BACHARELADO",
+            "chMinima": "3900",
             "periodos": {
                 "0º Período": {
                     "chTotal": "420h",
@@ -16469,6 +16585,7 @@
         {
             "id": 116,
             "curso": "ENGENHARIA CIVIL - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "4020",
             "periodos": {
                 "0º Período": {
                     "chTotal": "195h",
@@ -16619,6 +16736,7 @@
         {
             "id": 117,
             "curso": "ENGENHARIA DE ALIMENTOS - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3960",
             "periodos": {
                 "0º Período": {
                     "chTotal": "945h",
@@ -16776,6 +16894,7 @@
         {
             "id": 118,
             "curso": "ENGENHARIA DE MATERIAIS - Campina Grande - Presencial - MT - BACHARELADO",
+            "chMinima": "3885",
             "periodos": {
                 "0º Período": {
                     "chTotal": "570h",
@@ -16854,6 +16973,7 @@
         {
             "id": 119,
             "curso": "ENGENHARIA DE MATERIAIS - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "4230",
             "periodos": {
                 "0º Período": {
                     "chTotal": "360h",
@@ -17001,6 +17121,7 @@
         {
             "id": 120,
             "curso": "ENGENHARIA DE MINAS - Campina Grande - Presencial - T - BACHARELADO",
+            "chMinima": "4080",
             "periodos": {
                 "0º Período": {
                     "chTotal": "510h",
@@ -17090,6 +17211,7 @@
         {
             "id": 121,
             "curso": "ENGENHARIA DE PRODUÇÃO - João Pessoa - Presencial - N - BACHARELADO",
+            "chMinima": "3750",
             "periodos": {
                 "0º Período": {
                     "chTotal": "300h",
@@ -17229,6 +17351,7 @@
         {
             "id": 122,
             "curso": "ENGENHARIA DE PRODUÇÃO MECÂNICA - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "4140",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1320h",
@@ -17382,6 +17505,7 @@
         {
             "id": 123,
             "curso": "ENGENHARIA MECÂNICA - Campina Grande - Presencial - MT - BACHARELADO",
+            "chMinima": "4165",
             "periodos": {
                 "0º Período": {
                     "chTotal": "915h",
@@ -17467,6 +17591,7 @@
         {
             "id": 124,
             "curso": "ENGENHARIA MECÂNICA - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "4080",
             "periodos": {
                 "0º Período": {
                     "chTotal": "630h",
@@ -17627,6 +17752,7 @@
         {
             "id": 125,
             "curso": "ENGENHARIA QUÍMICA - Campina Grande - Presencial - MT - BACHARELADO",
+            "chMinima": "4170",
             "periodos": {
                 "0º Período": {
                     "chTotal": "375h",
@@ -17714,6 +17840,7 @@
         {
             "id": 126,
             "curso": "ENGENHARIA QUÍMICA - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "4080",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1290h",
@@ -17893,6 +18020,7 @@
         {
             "id": 127,
             "curso": "QUÍMICA INDUSTRIAL - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3300",
             "periodos": {
                 "0º Período": {
                     "chTotal": "360h",
@@ -18018,6 +18146,7 @@
         {
             "id": 128,
             "curso": "GASTRONOMIA - João Pessoa - Presencial - MT - BACHARELADO",
+            "chMinima": "3060",
             "periodos": {
                 "0º Período": {
                     "chTotal": "1050h",
@@ -18133,6 +18262,7 @@
         {
             "id": 129,
             "curso": "TECNOLOGIA DE ALIMENTOS - João Pessoa - Presencial - T - TECNOLÓGICO",
+            "chMinima": "2700",
             "periodos": {
                 "0º Período": {
                     "chTotal": "990h",
@@ -18238,6 +18368,7 @@
         {
             "id": 130,
             "curso": "TECNOLOGIA EM PRODUÇÃO SUCROALCOOLEIRA - João Pessoa - Presencial - T - TECNOLÓGICO",
+            "chMinima": "2610",
             "periodos": {
                 "0º Período": {
                     "chTotal": "210h",
