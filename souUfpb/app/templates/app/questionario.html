@@ -1,0 +1,59 @@
+{% extends "app/base.html" %}
+{% load widget_tweaks %}
+
+{% block content %}
+
+<h2 style="padding-top: 40px;padding-bottom: 20px;">Teste vocacional</h2>
+    <form method="post" style="width:2000px;">
+        {% csrf_token %}
+        {% include 'includes/form.html' with form=form %}
+        <input class="btn btn-primary" type="submit" value="Cadastro" style="width:100px;">
+    </form>
+
+{% endblock content %}
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
+    <title>Questionário</title>
+    <style>
+        .pergunta {
+            margin-bottom: 20px;
+        }
+        .alternativas {
+            display: flex;
+        }
+        .alternativa-label {
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        .resposta {
+            margin-left: 5px;
+            margin-top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Questionário</h1>
+
+    <form method="post">
+        {% csrf_token %}
+        {% for field in form %}
+        <div class="pergunta">
+            <p>{{ field.label }}</p>
+            <div class="alternativas">
+                {% for choice in field %}
+                <label class="alternativa-label" for="{{ field.id_for_label }}_{{ forloop.counter0 }}">
+                    <input type="radio" id="{{ field.id_for_label }}_{{ forloop.counter0 }}"
+                           name="{{ field.name }}" value="{{ choice.0 }}">
+                <p class="resposta">{{ choice }}</p>
+                </label>
+                {% endfor %}
+            </div>
+            <img src="/static/logo.png" />
+        </div>
+        {% endfor %}
+        <input type="submit" value="Próxima">
+    </form>
+</body>
+</html> -->

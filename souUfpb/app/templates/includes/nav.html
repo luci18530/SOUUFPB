@@ -1,0 +1,48 @@
+<!-- https://getbootstrap.com/docs/4.0/examples/starter-template/ -->
+<!-- https://github.com/JTruax/bootstrap-starter-template/blob/master/template/start.html -->
+<style>
+    .navbar{
+        height: 75px;
+        background-color: cadetblue;
+    }
+    .user-tools {
+        line-height: 1.85;
+        padding: 0;
+        font-weight: 3000;
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        float: right;
+        display: block;
+        margin: 0 5% 0 20px;
+        text-align: right;
+        color: white;
+    }
+</style>
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+<a class="navbar-brand" href="{% url 'app:home' %}">  <img src="/static/logo.png" height="50px" />  </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="{% url 'app:home' %}">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{% url 'app:cursos' %}">Cursos</a>
+            </li>
+        </ul>
+        {% if not request.user.is_authenticated %}
+            <a class="btn btn-primary" href="{% url 'app:login' %}" style="width:75px;"> Login </a>
+            <a class="btn btn-primary" href="{% url 'app:signup' %}" style="width:100px;"> Cadastro </a>
+        {% else %}
+            <div class="user-tools">
+                Bem-vindo(a), <strong>{{ request.user.username }}</strong>.
+            </div>
+            <a class="btn btn-primary" href="{% url 'app:logout' %}" style="width:75px;display:inline-flex;"> Logout </a>
+        {% endif %}
+    </div>
+</nav>
