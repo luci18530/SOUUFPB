@@ -19,3 +19,12 @@ py manage.py migrate
 py manage.py fill_database
 py manage.py runserver
 ```
+
+# Banco de dados - PostgreSQL
+Link para download: https://www.postgresql.org/download/
+
+```
+CREATE DATABASE souufpb;
+CREATE EXTENSION unaccent;
+```
+Observação: configurar usuário, senha, porta, etc. conforme DATABASES em "settings.py", ou alterar o arquivo de configuração para corresponder aos valores definidos.
