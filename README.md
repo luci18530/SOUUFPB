@@ -16,7 +16,6 @@ pip install psycopg2-binary
 pip install django-widget-tweaks
 
 py manage.py migrate
-py manage.py collectstatic
 py manage.py fill_database
 py manage.py runserver
 ```
