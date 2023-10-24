@@ -1,0 +1,36 @@
+{% load static %}
+{% load widget_tweaks %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SouUFPB</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{% static 'css/inicial.css' %}">
+
+</head>
+<body>
+
+  <div class="container">
+
+    <div class="column">
+      <img class="logo" src="/static/logo.png"/>
+      <h2 style="color:white">Bem-vindo!</h2>
+      <h6 style="color:white; margin-top: 75px;">Acesse sua conta</h6>
+      <a class="btn btn-primary" id="entrar" href="{% url 'app:login' %}" style="width: 50%;">ENTRAR</a>
+    </div>
+    
+    <div class="signup">
+      <form method="post">
+        <h2 style="padding-top: 40px;padding-bottom: 20px; color: #3b99c1;text-align: center;">Crie sua conta</h2>
+        {% csrf_token %}
+        {% include 'includes/form.html' with form=form %}
+        <input class="btn btn-primary" type="submit" value="CADASTRAR" style="width:100%;">
+      </form>
+    </div>
+  </div>
+    
+  </body>
+  </html>

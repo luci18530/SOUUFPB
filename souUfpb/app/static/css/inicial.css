@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.column {
+    width: 35%;
+    height: 100%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    display: inline-flex;
+    background-color: #3b99c1;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    width: 250px;
+    height: auto;
+    margin-bottom: 59px;
+}
+
+.signup {
+    display: flex;
+    margin-left: 10%;
+    width: 55%;
+    justify-content: center;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.btn {
+    background-color: #3b99c1;
+    border-radius: 30px;
+}
+
+#entrar {
+    margin-top: 15px;
+    background-color: #0069d9 ;
+}

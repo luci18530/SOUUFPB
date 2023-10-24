@@ -12,7 +12,7 @@ from django.db.models import F
 
 
 @login_required
-def questionario(request):
+def teste(request):
     perguntas = Question.objects.all()
     if request.method == 'POST':
         form = QuestionarioForm(request.POST, perguntas=perguntas)
@@ -23,7 +23,7 @@ def questionario(request):
                 Choice.objects.create(pergunta=pergunta, texto=texto_resposta)
     else:
         form = QuestionarioForm(perguntas=perguntas)
-    return render(request, 'app/questionario.html', {'form': form})
+    return render(request, 'app/teste.html', {'form': form, 'page': 'teste'})
 
 @login_required
 def cursos(request):
@@ -48,14 +48,25 @@ def cursos(request):
         return HttpResponse(cursos_html, content_type='text/html')
     else:
         # Caso contrário, renderize a página completa
-        return render(request, 'app/cursos.html', {'lista': listaCursos})
+        return render(request, 'app/cursos.html', {'lista': listaCursos, 'page': 'cursos'})
 
 def detalhes_curso(request, curso_id):
      curso = get_object_or_404(Curso, pk=curso_id)
      return render(request, 'app/detalhes_curso.html', {'curso': curso})
 
 def home(request):
-    return render(request, 'app/home.html')
+    return render(request, 'app/home.html', {'page': 'home'})
+
+def inicial(request):
+    if request.method == 'POST':
+        form = SignupForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('app:login')
+    else:
+        form = SignupForm()
+    
+    return render(request, 'app/inicial.html', {'form': form})
 
 def login_view(request):
     if request.method == 'POST':
