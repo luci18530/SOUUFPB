@@ -1,0 +1,9 @@
+{% extends "app/base.html" %}
+{% load widget_tweaks %}
+
+{% block content %}
+
+<h2 style="padding-top: 40px;padding-bottom: 20px;">Perfil</h2>
+    E-mail cadastrado: {{request.user.email}}
+
+{% endblock content %}

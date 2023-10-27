@@ -1,5 +1,5 @@
 from django.shortcuts import get_object_or_404, render
-from .models import Question, Choice, Curso
+from .models import Question, Choice, Curso, RelacaoDisciplinas, Disciplina
 from .forms import QuestionarioForm
 from .forms import SignupForm
 from django.contrib.auth import login, logout
@@ -9,7 +9,23 @@ from django.contrib.auth.decorators import login_required
 from django.http import HttpResponse
 from django.urls import reverse
 from django.db.models import F
+from django.http import JsonResponse
 
+def get_data(request):
+    curso_id = request.GET.get('id', '')
+    if curso_id:
+        listaDiscPeriodos = []
+        for i in range (get_object_or_404(Curso, pk=curso_id).numPeriodos + 1):
+            listaCodigos = RelacaoDisciplinas.objects.filter(curso = curso_id, periodo = i).values_list('disciplina', flat=True)
+            listaDisciplinas = []
+            for cod in listaCodigos:
+                disc = get_object_or_404(Disciplina, codigo=cod)
+                listaDisciplinas.append(cod + ' - ' + disc.nome + ' - ' + str(disc.carga) +'CH')
+
+            listaDiscPeriodos.append(listaDisciplinas)
+        return JsonResponse({'dados': listaDiscPeriodos})
+    
+    return render(request, 'app/not_authorized.html')
 
 @login_required
 def teste(request):
@@ -42,20 +58,20 @@ def cursos(request):
 
     listaCursos = listaCursos.order_by('nome')
 
-    if request.META.get('HTTP_X_REQUESTED_WITH') == 'XMLHttpRequest':
-        # Se for uma solicitação AJAX, retorne apenas o HTML da lista
-        cursos_html = '\n'.join([f'<p><a href="{reverse("app:detalhes_curso", args=[curso.id])}">{curso.nome}</a></p>' for curso in listaCursos])
-        return HttpResponse(cursos_html, content_type='text/html')
-    else:
-        # Caso contrário, renderize a página completa
-        return render(request, 'app/cursos.html', {'lista': listaCursos, 'page': 'cursos'})
+    return render(request, 'app/cursos.html', {'lista': listaCursos, 'page': 'cursos'})
 
+@login_required
 def detalhes_curso(request, curso_id):
      curso = get_object_or_404(Curso, pk=curso_id)
-     return render(request, 'app/detalhes_curso.html', {'curso': curso})
+     return render(request, 'app/detalhes_curso.html', {'curso': curso, 'page': 'cursos'})
 
+@login_required
 def home(request):
     return render(request, 'app/home.html', {'page': 'home'})
+
+@login_required
+def perfil(request):
+    return render(request, 'app/perfil.html', {'page': 'perfil'})
 
 def inicial(request):
     if request.method == 'POST':
@@ -97,5 +113,5 @@ def signup_view(request):
 
 def logout_view(request):
     logout(request)
-    return redirect('app:home')
+    return redirect('app:inicial')
 

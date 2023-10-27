@@ -1,0 +1,33 @@
+body {
+    background-color: #3b99c1;
+}
+
+.form {
+    color: white;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    width: 90%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#entrar {
+    margin-top: 10%;
+    width: 54%;
+    border-radius: 30px;
+}
+
+.logo {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 20%;
+}

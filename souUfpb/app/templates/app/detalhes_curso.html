@@ -1,3 +1,27 @@
-<h1>Detalhes do Curso: {{ curso.nome }}</h1>
-<p>{{ curso.numPeriodos }} períodos</p>
-<p>Carga horária mínima: {{ curso.chMinima }}h</p>
+{% extends "app/base.html" %}
+{% load static %}
+{% block content %}
+
+<div id="nomeCurso" class="container" curso-pk = "{{ curso.pk }}" style="margin-top: 20vh; margin-left: 2vw; padding: 0">
+</div>
+<div id="blocks">
+    <div id="info" style="background-color: #3b99c1; color: white; border-radius: 30px; height: 45vh; justify-content: center;
+    padding-top: 3vh; padding-bottom: 3vh; width: 30vw; display: inline-flex; flex-direction: column; margin-left: 4vw;">
+        <p style="margin-left: 2vw; font-size: 22px; margin-bottom:0">Duração: {{ curso.numPeriodos }} período(s)</p>
+        <p style="margin-left: 2vw; font-size: 22px; margin-top:0; margin-bottom: 0;">Carga horária mínima: {{ curso.chMinima }}h</p>
+    </div>
+
+    <script type="text/javascript" src="{% static 'js/detalhes_curso.js' %}" nome="{{curso.nome}}"></script>
+    <link rel="stylesheet" href="{% static 'css/detalhes_curso.css' %}">
+
+    <div class="dropdown" style="display: inline-flex;">
+        <a class="btn btn-primary" id="select">Períodos</a>
+        <div class="dropdown-content" style="position: absolute; top: 8vh; left: 0">
+        </div>      
+    </div>
+</div>
+
+<div id="periodos">
+</div>
+
+{% endblock content %}

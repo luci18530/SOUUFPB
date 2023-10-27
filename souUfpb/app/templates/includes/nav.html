@@ -37,15 +37,18 @@
             <li class="nav-item {% if page == 'teste' %}active{% endif %}">
                 <a class="nav-link" href="{% url 'app:teste' %}">Teste</a>
             </li>
+            <li class="nav-item {% if page == 'perfil' %}active{% endif %}">
+                <a class="nav-link" href="{% url 'app:perfil' %}">Perfil</a>
+            </li>
         </ul>
-        {% if not request.user.is_authenticated %}
+        <!-- {% if not request.user.is_authenticated %}
             <a class="btn btn-primary" href="{% url 'app:login' %}" style="width:75px;"> Login </a>
             <a class="btn btn-primary" href="{% url 'app:signup' %}" style="width:100px;"> Cadastro </a>
-        {% else %}
+        {% else %} -->
             <div class="user-tools">
                 Bem-vindo(a), <strong>{{ request.user.username }}</strong>.
             </div>
             <a class="btn btn-primary" href="{% url 'app:logout' %}" style="width:75px;display:inline-flex;"> Logout </a>
-        {% endif %}
+        <!-- {% endif %} -->
     </div>
 </nav>

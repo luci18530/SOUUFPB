@@ -1,13 +1,26 @@
-{% extends "app/base.html" %}
-{% load widget_tweaks %}
+{% load static %}
 
-{% block content %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SouUFPB</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{% static 'css/login.css' %}">
 
-<h2 style="padding-top: 40px;padding-bottom: 20px;">Login</h2>
-    <form method="post">
+  {% block css %}{% endblock css %}
+
+<body>
+
+  <div class="container">
+    <img class="logo" src="/static/logo.png"/>
+    <form method="post" class="form">
         {% csrf_token %}
         {% include 'includes/form.html' with form=form %}
-        <input class="btn btn-primary" type="submit" value="Login" style="width:75px;">
+        <input class="btn btn-primary" id="entrar" type="submit" value="Entrar">
     </form>
+  </div>
 
-{% endblock content %}
+</body>
+</html>

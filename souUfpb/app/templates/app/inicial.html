@@ -13,24 +13,21 @@
 </head>
 <body>
 
-  <div class="container">
-
     <div class="column">
       <img class="logo" src="/static/logo.png"/>
-      <h2 style="color:white">Bem-vindo!</h2>
-      <h6 style="color:white; margin-top: 75px;">Acesse sua conta</h6>
-      <a class="btn btn-primary" id="entrar" href="{% url 'app:login' %}" style="width: 50%;">ENTRAR</a>
+      <h2 id="bem-vindo" style="color:white;">Bem-vindo!</h2>
+      <h6 style="color:white; height: 2vw; margin:0;">Acesse sua conta</h6>
+      <a class="btn btn-primary" id="entrar" href="{% url 'app:login' %}" style="width: 50%; border-radius: 30px;">ENTRAR</a>
     </div>
     
     <div class="signup">
       <form method="post">
-        <h2 style="padding-top: 40px;padding-bottom: 20px; color: #3b99c1;text-align: center;">Crie sua conta</h2>
-        {% csrf_token %}
-        {% include 'includes/form.html' with form=form %}
-        <input class="btn btn-primary" type="submit" value="CADASTRAR" style="width:100%;">
+          <h2 style="padding-top: 20vh;padding-bottom: 20px; color: #3b99c1;text-align: center;">Crie sua conta</h2>
+          {% csrf_token %}
+          {% include 'includes/form.html' with form=form %}
+          <input class="btn btn-primary" type="submit" value="CADASTRAR" style="width:100%;">
       </form>
     </div>
-  </div>
     
   </body>
   </html>
