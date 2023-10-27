@@ -88,7 +88,7 @@ DATABASES = {
     # }
     'default': {
            'ENGINE': 'django.db.backends.postgresql_psycopg2',
-           'NAME': 'souUFPB',
+           'NAME': 'souufpb',
            'USER': 'postgres',
            'PASSWORD': 'password',
            'HOST': 'localhost',
