@@ -4,11 +4,50 @@
 {% block content %}
 
 <h2 style="padding-top: 40px;padding-bottom: 20px;">Teste vocacional</h2>
-    <form method="post" style="width:2000px;">
+
+    {% for pergunta in perguntas %}
+    <div class="container mb-4">
+        <p class="mb-2"> {{ pergunta.descricao }}</p>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              {{ pergunta.opcao_1 }}
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              {{ pergunta.opcao_2 }}
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              {{ pergunta.opcao_3 }}
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              {{ pergunta.opcao_4 }}
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              {{ pergunta.opcao_5 }}
+            </label>
+        </div>
+    </div>
+        
+    {% endfor %}
+    
+
+    <!-- <form method="post" style="width:2000px;">
         {% csrf_token %}
         {% include 'includes/form.html' with form=form %}
         <input class="btn btn-primary" type="submit" value="Enviar" style="width:100px;">
-    </form>
+    </form> -->
 
 {% endblock content %}
 

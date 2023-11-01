@@ -1,5 +1,5 @@
 from django.shortcuts import get_object_or_404, render
-from .models import Question, Choice, Curso, RelacaoDisciplinas, Disciplina
+from .models import Pergunta, Question, Choice, Curso, RelacaoDisciplinas, Disciplina
 from .forms import QuestionarioForm
 from .forms import SignupForm
 from django.contrib.auth import login, logout
@@ -10,6 +10,7 @@ from django.http import HttpResponse
 from django.urls import reverse
 from django.db.models import F
 from django.http import JsonResponse
+from django.core.paginator import Paginator
 
 def get_data(request):
     curso_id = request.GET.get('id', '')
@@ -30,6 +31,8 @@ def get_data(request):
 @login_required
 def teste(request):
     perguntas = Question.objects.all()
+    questoes = Pergunta.objects.all()
+    paginator = Paginator(questoes, 3)
     if request.method == 'POST':
         form = QuestionarioForm(request.POST, perguntas=perguntas)
         if form.is_valid():
@@ -39,7 +42,10 @@ def teste(request):
                 Choice.objects.create(pergunta=pergunta, texto=texto_resposta)
     else:
         form = QuestionarioForm(perguntas=perguntas)
-    return render(request, 'app/teste.html', {'form': form, 'page': 'teste'})
+
+    page_number = request.GET.get("page")
+    page_obj = paginator.get_page(page_number)
+    return render(request, 'app/teste.html', {'form': form, 'page': 'teste', 'perguntas': questoes, 'page_obj': page_obj})
 
 @login_required
 def cursos(request):

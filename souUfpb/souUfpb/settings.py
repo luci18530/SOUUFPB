@@ -90,9 +90,9 @@ DATABASES = {
            'ENGINE': 'django.db.backends.postgresql_psycopg2',
            'NAME': 'souufpb',
            'USER': 'postgres',
-           'PASSWORD': 'password',
+           'PASSWORD': 'admin',
            'HOST': 'localhost',
-           'PORT': '5432',
+           'PORT': '5433',
        }
 }
 

@@ -49,3 +49,14 @@ class RelacaoDisciplinas(models.Model):
 
     def __str__(self):
         return f'{self.curso.nome} - {self.periodo}º período - {self.disciplina.codigo}'
+    
+class Pergunta(models.Model):
+    descricao = models.CharField(max_length=250)
+    opcao_1 = models.CharField(default='Nada interessado', editable=False)
+    opcao_2 = models.CharField(default='Pouco interessado', editable=False)
+    opcao_3 = models.CharField(default='Neutro', editable=False)
+    opcao_4 = models.CharField(default='Interessado', editable=False)
+    opcao_5 = models.CharField(default='Muito interessado', editable=False)
+
+    def __str__(self):
+        return self.descricao
