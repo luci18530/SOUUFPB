@@ -10,7 +10,7 @@ from django.http import HttpResponse
 from django.urls import reverse
 from django.db.models import F
 from django.http import JsonResponse
-from django.core.paginator import Paginator
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 def get_data(request):
     curso_id = request.GET.get('id', '')
@@ -32,7 +32,8 @@ def get_data(request):
 def teste(request):
     perguntas = Question.objects.all()
     questoes = Pergunta.objects.all()
-    paginator = Paginator(questoes, 3)
+    paginator = Paginator(questoes, 5)
+    page = request.GET.get('page', 1)
     if request.method == 'POST':
         form = QuestionarioForm(request.POST, perguntas=perguntas)
         if form.is_valid():
@@ -43,9 +44,15 @@ def teste(request):
     else:
         form = QuestionarioForm(perguntas=perguntas)
 
-    page_number = request.GET.get("page")
-    page_obj = paginator.get_page(page_number)
-    return render(request, 'app/teste.html', {'form': form, 'page': 'teste', 'perguntas': questoes, 'page_obj': page_obj})
+    
+
+    try:
+        questoes = paginator.page(page)
+    except PageNotAnInteger:
+        questoes = paginator.page(1)
+    except EmptyPage:
+        questoes = paginator.page(paginator.num_pages)
+    return render(request, 'app/teste.html', {'form': form, 'page': 'teste', 'perguntas': questoes})
 
 @login_required
 def cursos(request):

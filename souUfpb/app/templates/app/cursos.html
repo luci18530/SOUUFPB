@@ -1,16 +1,24 @@
 {% extends "app/base.html" %}
-
+{% load static %}
 {% block content %}
 
 <div class="jumbotron">
   <div class="container">
-    <h2 style="margin-bottom: 50px;">Lista de cursos da UFPB</h2>
-    <input type="text" id="search-bar" placeholder="Pesquisar cursos" style="margin-bottom: 30px;">
-    <div id="results-list" style="height:250px;width:90%;overflow:hidden;overflow-y: scroll;">
-      {% for curso in lista %}
-      <a id="curso" href="{% url 'app:detalhes_curso' curso.id %}">{{ curso.nome }}</a><br>
-      {% endfor %}
+    <div class="d-flex justify-content-between mb-4">
+      <h2 class="custom-title text-center">Lista de cursos da UFPB</h2>
+      <form class="d-flex w-25" role="search">
+        <input id="search-bar" class="form-control me-2" type="search" placeholder="Pesquisar cursos" aria-label="Search">
+      </form>
     </div>
+
+    <ul id="results-list" class="list-group">
+      {% for curso in lista %}
+      <a id="curso" href="{% url 'app:detalhes_curso' curso.id %}">
+        <li class="list-group-item">{{ curso.nome }}</li>
+      </a>
+      <br>
+      {% endfor %}
+    </ul>
   </div>
 </div>
 
@@ -26,8 +34,8 @@
         .then(response => response.text())
         .then(data => {
           // Atualize a lista de resultados com o HTML retornado pela view
-          data = data.substring(data.indexOf('overflow-y: scroll;">')+21);
-          data = data.substring(0,data.indexOf('</div>'));
+          data = data.substring(data.indexOf('list-group">')+21);
+          data = data.substring(0,data.indexOf('</ul>'));
           resultsList.innerHTML = data;
           
         })

@@ -1,46 +1,73 @@
 {% extends "app/base.html" %}
 {% load widget_tweaks %}
+{% load static %}
 
 {% block content %}
 
-<h2 style="padding-top: 40px;padding-bottom: 20px;">Teste vocacional</h2>
+<h2 style="padding-bottom: 20px;" class="custom-title text-center">Teste vocacional</h2>
 
     {% for pergunta in perguntas %}
-    <div class="container mb-4">
-        <p class="mb-2"> {{ pergunta.descricao }}</p>
+    <div class="container mb-4 py-2 border border-primary" style="border-radius: 0.7em">
         <div class="form-check">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault1">
-              {{ pergunta.opcao_1 }}
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault1">
-              {{ pergunta.opcao_2 }}
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault1">
-              {{ pergunta.opcao_3 }}
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault1">
-              {{ pergunta.opcao_4 }}
-            </label>
-        </div>
-        <div class="form-check">
-            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-            <label class="form-check-label" for="flexRadioDefault1">
-              {{ pergunta.opcao_5 }}
-            </label>
+            <p class="mb-2"> {{ pergunta.descricao }}</p>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="{{ pergunta.descricao }}" id="opcao_1" value="opcao_1">
+                <label class="form-check-label" for="opcao_1">
+                {{ pergunta.opcao_1 }}
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="{{ pergunta.descricao }}" id="opcao_2" value="opcao_2">
+                <label class="form-check-label" for="opcao_2">
+                {{ pergunta.opcao_2 }}
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="{{ pergunta.descricao }}" id="opcao_3" value="opcao_3">
+                <label class="form-check-label" for="opcao_3">
+                {{ pergunta.opcao_3 }}
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="{{ pergunta.descricao }}" id="opcao_4" value="opcao_4">
+                <label class="form-check-label" for="opcao_4">
+                {{ pergunta.opcao_4 }}
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="{{ pergunta.descricao }}" id="opcao_5" value="opcao_5">
+                <label class="form-check-label" for="opcao_5">
+                {{ pergunta.opcao_5 }}
+                </label>
+            </div>
         </div>
     </div>
         
     {% endfor %}
+
+    {% if perguntas.has_other_pages %}
+    <nav aria-label="paginacao">
+        <ul class="pagination">
+            {% if users.has_previous %}
+            <li class="page-item"><a class="page-link" href="?page={{ perguntas.previous_page_number }}">&laquo;</a></li>
+            {% else %}
+            <li class="page-item disabled"><span class="page-link">&laquo;</span></li>
+            {% endif %}
+            {% for i in perguntas.paginator.page_range %}
+            {% if perguntas.number == i %}
+                <li class="page-item active"><span class="page-link">{{ i }} <span class="sr-only">(current)</span></span></li>
+            {% else %}
+                <li class="page-item"><a class="page-link" href="?page={{ i }}">{{ i }}</a></li>
+            {% endif %}
+            {% endfor %}
+            {% if perguntas.has_next %}
+                <li class="page-item"><a class="page-link" href="?page={{ perguntas.next_page_number }}">&raquo;</a></li>
+            {% else %}
+                <li class="page-item disabled"><span class="page-link">&raquo;</span></li>
+            {% endif %}
+        </ul>
+    </nav>
+    {% endif %}
     
 
     <!-- <form method="post" style="width:2000px;">
@@ -49,6 +76,7 @@
         <input class="btn btn-primary" type="submit" value="Enviar" style="width:100px;">
     </form> -->
 
+    <!-- <link rel="stylesheet" href="{% static 'css/main.css' %}"> -->
 {% endblock content %}
 
 <!-- <!DOCTYPE html>

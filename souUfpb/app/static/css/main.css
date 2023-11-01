@@ -3,3 +3,14 @@ body {
     padding: 0;
     height: calc(100vh - 75px);
 }
+
+.custom-title {
+    font-weight: bold; 
+    font-size: 28px; 
+    color: rgb(59, 153, 193);
+}
+
+#curso {
+    text-decoration: none;
+    color: rgb(59, 153, 193);
+}

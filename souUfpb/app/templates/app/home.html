@@ -13,9 +13,17 @@
       <p>
         Ter acesso a informações sobre os 131 cursos ativos na instituição.
       </p>
+    
+      <div class="row mt-5 ml-0">
+        <a href="{% url 'app:teste' %}">
+          <button type="button" class="btn btn-primary btn-lg mr-3">Teste vocacional</button>
+        </a>
+        <a href="{% url 'app:cursos' %}">
+          <button type="button" class="btn btn-success btn-lg mr-3">Cursos</button>
+        </a>
+      </div>
     </div>
   </div>
-
 
 
 {% endblock content %}
