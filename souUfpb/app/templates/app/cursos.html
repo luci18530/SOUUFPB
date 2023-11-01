@@ -13,9 +13,11 @@
 
     <ul id="results-list" class="list-group">
       {% for curso in lista %}
-      <a id="curso" href="{% url 'app:detalhes_curso' curso.id %}">
-        <li class="list-group-item">{{ curso.nome }}</li>
-      </a>
+      <li class="list-group-item">
+        <a id="curso" href="{% url 'app:detalhes_curso' curso.id %}">
+          {{ curso.nome }}
+        </a>
+      </li>
       <br>
       {% endfor %}
     </ul>
