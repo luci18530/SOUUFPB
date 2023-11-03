@@ -63,7 +63,7 @@ fetch(`/get_data/?id=${curso}`)
             const targetElement = document.getElementById(i);
             
             if (targetElement) {
-                const offset = 100;
+                const offset = 50;
                 const targetOffset = targetElement.offsetTop - offset;
                 window.scrollTo({ top: targetOffset, behavior: 'smooth' });
             }
