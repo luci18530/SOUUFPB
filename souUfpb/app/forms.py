@@ -3,7 +3,7 @@ from .models import Choice
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth.models import User
 
-class QuestionarioForm(forms.Form):
+class QuestionarioForm(forms.ModelForm):
     def __init__(self, *args, **kwargs):
         perguntas = kwargs.pop('perguntas')
         super(QuestionarioForm, self).__init__(*args, **kwargs)
