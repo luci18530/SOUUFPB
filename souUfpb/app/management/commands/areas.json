@@ -1,0 +1,36 @@
+{
+    "areas": [
+        {
+            "nome": "Ciências Exatas e da Terra",
+            "descricao": "Essa área abrange disciplinas como matemática, física, química, geociências e astronomia. Os estudos buscam desvendar princípios fundamentais que governam o universo, das leis da física a processos geológicos e fenômenos espaciais. Pesquisas impulsionam avanços tecnológicos, incluindo materiais inovadores e compreensão das mudanças climáticas."
+        },
+        {
+            "nome": "Ciências Biológicas",
+            "descricao": "Ciências Biológicas envolvem biologia, genética, botânica, zoologia e ecologia. Pesquisadores exploram a vida em suas várias formas, de processos moleculares a ecossistemas naturais. Avanços impactam medicina, biotecnologia e conservação ambiental."
+        },
+        {
+            "nome": "Engenharias",
+            "descricao": "Engenharias incluem diversas disciplinas, como civil, elétrica e química. Engenheiros aplicam princípios científicos para projetar sistemas e infraestruturas que impulsionam o desenvolvimento tecnológico e econômico."
+        },
+        {
+            "nome": "Ciências da Saúde",
+            "descricao": "Ciências da Saúde abrangem medicina, odontologia, enfermagem, farmácia e saúde pública. Profissionais buscam entender a saúde humana, prevenir doenças e desenvolver tratamentos eficazes."
+        },
+        {
+            "nome": "Ciências Agrárias",
+            "descricao": "Ciências Agrárias incluem agronomia, zootecnia e recursos naturais. Pesquisas promovem agricultura sustentável, segurança alimentar e uso eficiente de recursos naturais."
+        },
+        {
+            "nome": "Ciências Humanas",
+            "descricao": "Ciências Humanas exploram a sociedade, cultura e comportamento humano, incluindo sociologia, antropologia, filosofia e psicologia. Compreender questões sociais e éticas é essencial."
+        },
+        {
+            "nome": "Linguística, Letras e Artes",
+            "descricao": "Linguística, Letras e Artes abrangem estudos linguísticos, literários e artísticos. Pesquisadores exploram a linguagem, produção literária e expressões artísticas que enriquecem a cultura e a comunicação."
+        },
+        {
+            "nome": "Ciências Sociais Aplicadas",
+            "descricao": "Ciências Sociais Aplicadas incluem economia, administração e direito. Pesquisadores aplicam conhecimentos para abordar questões sociais e econômicas, promover políticas públicas e melhorar a gestão de organizações e empresas."
+        }
+    ]
+}

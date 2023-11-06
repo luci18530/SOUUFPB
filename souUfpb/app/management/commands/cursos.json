@@ -131,7 +131,8 @@
                         "GDBTC0030 - ESTÁGIO SUPERVISIONADO IV - 75CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Biológicas"
         },
         {
             "id": 1,
@@ -322,7 +323,8 @@
                         "DFCA000180 - TRABALHO DE CONCLUSÃO DE CURSO (TCC) - AGRONOMIA - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Agrárias"
         },
         {
             "id": 2,
@@ -455,7 +457,8 @@
                         "3104200 - ESTÁGIO SUPERVISIONADO IV - 150CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Biológicas"
         },
         {
             "id": 3,
@@ -629,7 +632,8 @@
                         "3105075 - TRABALHO DE CONCLUSÃO DE CURSO - MEDICINA VETERINÁRIA - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Agrárias"
         },
         {
             "id": 4,
@@ -750,7 +754,8 @@
                         "DMVPT0067 - ZOONOZES (SAÚDE PÚBLICA VETERINÁRIA) - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Agrárias"
         },
         {
             "id": 5,
@@ -880,7 +885,8 @@
                         "GDSER0100 - DERIVADOS DE CANA-DE-AÇUCAR - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Exatas e da Terra"
         },
         {
             "id": 6,
@@ -1050,7 +1056,8 @@
                         "DZOO000111 - TRABALHO DE CONCLUSÃO DE CURSO TCC - ZOOTECNIA - 120CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Agrárias"
         },
         {
             "id": 7,
@@ -1157,7 +1164,8 @@
                         "GDCSS0129 - TRABALHO DE CONCLUSÃO DE CURSO - ADMINISTRAÇÃO CCAE - 120CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 8,
@@ -1272,7 +1280,8 @@
                         "8101293 - TRABALHO DE CONCLUSÃO DE CURSO - ANTROPOLOGIA - 135CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Humanas"
         },
         {
             "id": 9,
@@ -1415,7 +1424,8 @@
                         "8105031 - LIBRAS - LÍNGUA BRASILEIRA DE SINAIS - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Exatas e da Terra"
         },
         {
             "id": 10,
@@ -1588,7 +1598,8 @@
                         "8108021 - TRABALHO DE CONCLUSÃO DE CURSO II - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 11,
@@ -1717,7 +1728,8 @@
                         "GDESI0048 - TRABALHO DE CONCLUSÃO DE CURSO - DESIGN - 45CH"
                     ]
                 }
-            }
+            },
+            "area": "Linguística, Letras e Artes"
         },
         {
             "id": 12,
@@ -1861,7 +1873,8 @@
                         "8104196 - TCC - TRABALHO DE CONCLUSÃO DE CURSO - ECOLOGIA - 90CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Biológicas"
         },
         {
             "id": 13,
@@ -1983,7 +1996,8 @@
                         "GDDLT0148 - TCC - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Linguística, Letras e Artes"
         },
         {
             "id": 14,
@@ -2105,7 +2119,8 @@
                         "GDDLT0149 - LINGUA INGLESA VIII UV - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Linguística, Letras e Artes"
         },
         {
             "id": 15,
@@ -2217,7 +2232,8 @@
                         "8105068 - TRABALHO DE CONCLUSÃO DE CURSO - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Linguística, Letras e Artes"
         },
         {
             "id": 16,
@@ -2330,7 +2346,8 @@
                         "8105031 - LIBRAS - LÍNGUA BRASILEIRA DE SINAIS - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Exatas e da Terra"
         },
         {
             "id": 17,
@@ -2452,7 +2469,8 @@
                         "GDEDC0156 - EDUCAÇÃO DO CAMPO E MOVIMENTOS SOCIAIS - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Humanas"
         },
         {
             "id": 18,
@@ -2587,7 +2605,8 @@
                         "8108076 - CERIMONIALPROT E ETIQUETA EMPRESARIAL - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 19,
@@ -2700,7 +2719,8 @@
                         "8103216 - ESTAGIO SUPERVISIONADO SIST INF - 300CH"
                     ]
                 }
-            }
+            },
+            "area": "Engenharias"
         },
         {
             "id": 20,
@@ -2864,7 +2884,8 @@
                         "GDFPT0129 - ESTÁGIO SUPERVISIONADO II - 360CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências da Saúde"
         },
         {
             "id": 21,
@@ -3003,7 +3024,8 @@
                         "1609323 - SEMINÁRIO DE MONOGRAFIA II - (TCC II) - 30CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Exatas e da Terra"
         },
         {
             "id": 22,
@@ -3150,7 +3172,8 @@
                         "1609323 - SEMINÁRIO DE MONOGRAFIA II - (TCC II) - 30CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Exatas e da Terra"
         },
         {
             "id": 23,
@@ -3280,7 +3303,8 @@
                         "1613111 - ENFERMAGEM PSIQUIATRICA I - 150CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências da Saúde"
         },
         {
             "id": 24,
@@ -3410,7 +3434,8 @@
                         "1105118 - QUIMICA ANALITICA I - 90CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências da Saúde"
         },
         {
             "id": 25,
@@ -3568,7 +3593,8 @@
                         "1614155 - TRABALHO DE CONCLUSÂO DE CURSO - TCC II - 15CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências da Saúde"
         },
         {
             "id": 26,
@@ -3694,7 +3720,8 @@
                         "1618043 - ESTÁGIO SUPERVISIONADO EM MOTRICIDADE OROFACIAL II - 75CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências da Saúde"
         },
         {
             "id": 27,
@@ -3831,7 +3858,8 @@
                         "1612174 - TRABALHO DE CONCLUSÃO DE CURSO - TCC - 45CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências da Saúde"
         },
         {
             "id": 28,
@@ -4021,7 +4049,8 @@
                         "GDORS0060 - ESTAGIO SUPERVISIONADO INTERPROFISSIONAL - 90CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências da Saúde"
         },
         {
             "id": 29,
@@ -4135,7 +4164,8 @@
                         "1619032 - TRABALHO DE CONCLUSÃO DE CURSO II - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências da Saúde"
         },
         {
             "id": 30,
@@ -4205,7 +4235,8 @@
                         "DCCZ00048 - QUÍMICA ORGÂNICA II - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Exatas e da Terra"
         },
         {
             "id": 31,
@@ -4314,7 +4345,8 @@
                         "GDMTE0152 - TRABALHO ACADÊMICO DE CONCLUSÃO DE CURSO - CIÊNCIAS BIOLÓGICAS - LICENCIATURA - 30CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Biológicas"
         },
         {
             "id": 32,
@@ -4507,7 +4539,8 @@
                         "1104190 - TRABALHO DE CONCLUSÃO DE CURSO - CIÊNCIAS BIOLÓGICAS BACH. - 45CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Biológicas"
         },
         {
             "id": 33,
@@ -4615,7 +4648,8 @@
                         "1303249 - EDUCAÇÃO E INCLUSÃO SOCIAL - EAD - 30CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Biológicas"
         },
         {
             "id": 34,
@@ -4737,7 +4771,8 @@
                         "1108356 - TRABALHO DE CONCLUSÃO DE CURSO II - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Exatas e da Terra"
         },
         {
             "id": 35,
@@ -4869,7 +4904,8 @@
                         "GDMTE0134 - PRÁTICA DE ENSINO DE FÍSICA - 120CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Exatas e da Terra"
         },
         {
             "id": 36,
@@ -4993,7 +5029,8 @@
                         "1102201 - PLANEJ E GESTAO GEOAMBIENTAL - 120CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Humanas"
         },
         {
             "id": 37,
@@ -5161,7 +5198,8 @@
                         "GDGEO0125 - TRABALHO DE CONCLUSÃO DE CURSO - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Humanas"
         },
         {
             "id": 38,
@@ -5282,7 +5320,8 @@
                         "DMAT00270 - TRABALHO DE CONCLUSÃO DE CURSO MAT - 90CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Exatas e da Terra"
         },
         {
             "id": 39,
@@ -5378,7 +5417,8 @@
                         "1103266 - TRABALHO DE CONCLUSÃO DE CURSO TCC UV - 90CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Exatas e da Terra"
         },
         {
             "id": 40,
@@ -5520,7 +5560,8 @@
                         "1105198 - TRABALHO DE CONCLUSAO DE CURSO II - 30CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Exatas e da Terra"
         },
         {
             "id": 41,
@@ -5590,7 +5631,8 @@
                         "DCCCG0048 - TEORIA POLÍTICA I - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 42,
@@ -5739,7 +5781,8 @@
                         "1401276 - TRABALHO DE CONCLUSÃO DE CURSO - CIÊNCIAS SOCIAIS -BACHARELADO - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 43,
@@ -5938,7 +5981,8 @@
                         "GDMDI0133 - TRABALHO DE CONCLUSÃO DE CURSO II - COMUNICAÇÃO EM MÍDIAS DIGITAIS - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 44,
@@ -6102,7 +6146,8 @@
                         "1402304 - CIÊNCIA HUMANA 2 - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Humanas"
         },
         {
             "id": 45,
@@ -6178,7 +6223,8 @@
                         "DHCG00034 - PRÁTICA DE ENSINO DE HISTÓRIA - 240CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Humanas"
         },
         {
             "id": 46,
@@ -6263,7 +6309,8 @@
                         "DHCG00080 - PRAT ENS HIST NA ESC I E II G - 120CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Humanas"
         },
         {
             "id": 47,
@@ -6501,7 +6548,8 @@
                         "GDMTE0165 - ESTÁGIO SUPERVISIONADO IV - HISTÓRIA - 105CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Humanas"
         },
         {
             "id": 48,
@@ -6624,7 +6672,8 @@
                     "chTotal": "0h",
                     "componentes": []
                 }
-            }
+            },
+            "area": "Ciências Humanas"
         },
         {
             "id": 49,
@@ -6756,7 +6805,8 @@
                         "GDLEM0125 - SEMINÁRIO DE ESTÁGIO SUPERVISIONADO EM LÍNGUAS ESTRANGEIRAS - 45CH"
                     ]
                 }
-            }
+            },
+            "area": "Linguística, Letras e Artes"
         },
         {
             "id": 50,
@@ -6880,7 +6930,8 @@
                         "GDLEM0157 - TRABALHO DE CONCLUSÃO DE CURSO II - LÍNGUA FRANCESA - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Linguística, Letras e Artes"
         },
         {
             "id": 51,
@@ -7014,7 +7065,8 @@
                         "GDLEM0142 - TRABALHO DE CONCLUSÃO DE CURSO II - LÍNGUA INGLESA - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Linguística, Letras e Artes"
         },
         {
             "id": 52,
@@ -7202,7 +7254,8 @@
                         "GDLCV0108 - TCC LETRAS CLÁSSICAS II - 240CH"
                     ]
                 }
-            }
+            },
+            "area": "Linguística, Letras e Artes"
         },
         {
             "id": 53,
@@ -7314,7 +7367,8 @@
                         "GDLS0042 - TRABALHO DE CONCLUSÃO DE CURSO / LIBRAS UV - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Linguística, Letras e Artes"
         },
         {
             "id": 54,
@@ -7420,7 +7474,8 @@
                         "GDLS0025 - LIBRAS - EAD - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Linguística, Letras e Artes"
         },
         {
             "id": 55,
@@ -7633,7 +7688,8 @@
                     "chTotal": "0h",
                     "componentes": []
                 }
-            }
+            },
+            "area": "Linguística, Letras e Artes"
         },
         {
             "id": 56,
@@ -8281,7 +8337,8 @@
                         "GDMI0235 - ESTÁGIO SUPERVISIONADO EM LEANI II - 150CH"
                     ]
                 }
-            }
+            },
+            "area": "Linguística, Letras e Artes"
         },
         {
             "id": 57,
@@ -8462,7 +8519,8 @@
                         "1405254 - TRABALHO DE CONCLUSÃO DE CURSO IITCCII - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Humanas"
         },
         {
             "id": 58,
@@ -8595,7 +8653,8 @@
                         "GDSSC0109 - TRABALHO DE CONCLUSÃO DE CURSO II - 180CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 59,
@@ -8803,7 +8862,8 @@
                         "GDMI0128 - TRABALHO DE CONCLUSÃO DE CURSO II - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Linguística, Letras e Artes"
         },
         {
             "id": 60,
@@ -8918,7 +8978,8 @@
                         "DPSA00068 - ESTÁGIO SUPERVISIONADO - ADMINISTRAÇÃO CCHSA - 300CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 61,
@@ -9063,7 +9124,8 @@
                         "GDPSA0159 - SEMINÁRIO DE EDUCAÇÃO DAS RELAÇÕES ÉTNICO-RACIAIS - 30CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Agrárias"
         },
         {
             "id": 62,
@@ -9203,7 +9265,8 @@
                         "4103112 - TCC TRABALHO DE CONCLUSAO DE CURSO - 120CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Agrárias"
         },
         {
             "id": 63,
@@ -9394,7 +9457,8 @@
                         "4105101 - ESTÁGIO SUPERVISIONADO IV EXTENSÃO RURAL - LIC. EM CIÊNCIAS AGRÁRIAS - 105CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Agrárias"
         },
         {
             "id": 64,
@@ -9541,7 +9605,8 @@
                         "GDCSO0101 - LIBRAS LINGUA BRASILEIRA DE SINAIS ( UV-BN) - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Agrárias"
         },
         {
             "id": 65,
@@ -9677,7 +9742,8 @@
                         "4105097 - RELAÇÕES ÉTNICO-RACIAIS E ENSINO DE HISTÓRIA E CULTURA AFRO-BRASILEIRA, AFRICANA E INDÍGENA - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Agrárias"
         },
         {
             "id": 66,
@@ -9834,7 +9900,8 @@
                         "1503145 - PRÁTICA JURÍDICA IV - 75CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 67,
@@ -9994,7 +10061,8 @@
                         "1504066 - TRABALHO DE CONCLUSÃO DE CURSO - 30CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 68,
@@ -10068,7 +10136,8 @@
                         "DDS000067 - DIREITO DO TRABALHO - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 69,
@@ -10201,7 +10270,8 @@
                         "DMDCCG064 - ESTÁGIO (INTERNATO) II - 960CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências da Saúde"
         },
         {
             "id": 70,
@@ -10383,7 +10453,8 @@
                         "GDPOG0030 - INTERNATO II - GINECOLOGIA E OBSTETRÍCIA II - 256CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências da Saúde"
         },
         {
             "id": 71,
@@ -10443,7 +10514,8 @@
                         "DACG00044 - ESTÁGIO SUPERVISIONADO (EMPRESA) - 270CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 72,
@@ -10567,7 +10639,8 @@
                         "GDADM0127 - TRABALHO DE CONCLUSÃO DE CURSO DE ADMINISTRAÇÃO II - 75CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 73,
@@ -10682,7 +10755,8 @@
                         "GDGP0091 - TRABALHO DE CONCLUSÃO DE CURSO - EAD - 30CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 74,
@@ -10821,7 +10895,8 @@
                         "GDCIN0066 - TRABALHO DE CONCLUSÃO DE CURSO - ARQUIVOLOGIA - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Humanas"
         },
         {
             "id": 75,
@@ -10918,7 +10993,8 @@
                         "1205040 - TRABALHO DE CONCLUSÃO DE CURSO TCC - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 76,
@@ -11049,7 +11125,8 @@
                         "PSAE00231 - ESTÁGIO SUPERVISIONADO II - CDN - 150CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 77,
@@ -11174,7 +11251,8 @@
                         "5103042 - INTRODUÇÃO A PROGRAMAÇÃO - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 78,
@@ -11327,7 +11405,8 @@
                         "GDFC0152 - ESTÁGIO SUPERVISIONADO IV - CIÊNCIAS CONTÁBEIS - 75CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 79,
@@ -11474,7 +11553,8 @@
                         "1201193 - TRABALHO DE CONCLUSAO DO CURSO II - 90CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 80,
@@ -11596,7 +11676,8 @@
                         "DGP003105 - TRABALHO DE CONCLUSÃO DE CURSO - GESTÃO PÚBLICA - 120CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 81,
@@ -11742,7 +11823,8 @@
                         "1206028 - TRABALHO DE CONCLUSÃO DE CURSO II - RELAÇÕES INTERNACIONAIS - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 82,
@@ -11827,7 +11909,8 @@
                         "DGP003104 - TRABALHO DE CONCLUSÃO DE CURSO - TECNOLOGIA EM GESTÃO PÚBLICA - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Engenharias"
         },
         {
             "id": 83,
@@ -11948,7 +12031,8 @@
                         "GDAVI0089 - TRABALHO DE CONCLUSÃO DE CURSO II (ART. VISUAIS -BACHARELADO) - 45CH"
                     ]
                 }
-            }
+            },
+            "area": "Linguística, Letras e Artes"
         },
         {
             "id": 84,
@@ -12076,7 +12160,8 @@
                         "2303202 - TCC II - 270CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 85,
@@ -12220,7 +12305,8 @@
                         "GDAC0118 - TRABALHO DE CONCLUSÃO DE CURSO II - DANÇA - 90CH"
                     ]
                 }
-            }
+            },
+            "area": "Linguística, Letras e Artes"
         },
         {
             "id": 86,
@@ -12332,7 +12418,8 @@
                         "GDTH0039 - TRABALHO DE CONCLUSÃO DE CURSO II (HOTELARIA) - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 87,
@@ -12453,7 +12540,8 @@
                         "GDJOR0024 - TRABALHO DE CONCLUSÃO DE CURSO II - 270CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 88,
@@ -12881,7 +12969,8 @@
                         "GDEM0166 - VIOLÃO SETE CORDAS VIII - 30CH"
                     ]
                 }
-            }
+            },
+            "area": "Linguística, Letras e Artes"
         },
         {
             "id": 89,
@@ -13318,7 +13407,8 @@
                     "chTotal": "0h",
                     "componentes": []
                 }
-            }
+            },
+            "area": "Linguística, Letras e Artes"
         },
         {
             "id": 90,
@@ -13519,7 +13609,8 @@
                         "2303165 - TCC II - 225CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 91,
@@ -13599,7 +13690,8 @@
                         "1407772 - ELEMENTOS DE EVOL E COREOGRAFIA - 30CH"
                     ]
                 }
-            }
+            },
+            "area": "Linguística, Letras e Artes"
         },
         {
             "id": 92,
@@ -13809,7 +13901,8 @@
                         "2303147 - TRABALHO DE CONCLUSÃO DE CURSO II ( RP) - 240CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 93,
@@ -13949,7 +14042,8 @@
                         "2301038 - TRABALHO DE CONCLUSÃO DE CURSO - 120CH"
                     ]
                 }
-            }
+            },
+            "area": "Linguística, Letras e Artes"
         },
         {
             "id": 94,
@@ -14105,7 +14199,8 @@
                         "1411171 - ESTÁGIO SUPERVISIONADO III - TEATRO - 105CH"
                     ]
                 }
-            }
+            },
+            "area": "Linguística, Letras e Artes"
         },
         {
             "id": 95,
@@ -14241,7 +14336,8 @@
                         "1406349 - TCC PLANEJAMENTO - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 96,
@@ -14379,7 +14475,8 @@
                         "GDLS0024 - LIBRAS - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Humanas"
         },
         {
             "id": 97,
@@ -14460,7 +14557,8 @@
                         "DPCZ00037 - ESTÁGIO SUPERVISIONADO EM SUPERVISÃO ESCOLAR - 240CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Humanas"
         },
         {
             "id": 98,
@@ -14530,7 +14628,8 @@
                         "DPCG00036 - PRÁTICA DE ENSINO DA ESCOLA DE 1º GRAU - 300CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Humanas"
         },
         {
             "id": 99,
@@ -14678,7 +14777,8 @@
                         "1303108 - ESTAGIO SUP SUPERV ESC - 240CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Humanas"
         },
         {
             "id": 100,
@@ -14797,7 +14897,8 @@
                         "GDPSP0105 - EDUCAÇÃO E SAÚDE - EAD - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Humanas"
         },
         {
             "id": 101,
@@ -14916,7 +15017,8 @@
                         "GDHPE0104 - TRABALHO DE CONCLUSÃO DE CURSO II - PEDAGOGIA (EDUCAÇÃO DO CAMPO) - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Humanas"
         },
         {
             "id": 102,
@@ -15015,7 +15117,8 @@
                         "GDLS0024 - LIBRAS - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Humanas"
         },
         {
             "id": 103,
@@ -15120,7 +15223,8 @@
                         "1305089 - TRABALHO DE CONCLUSÃO DE CURSO - TCC - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Humanas"
         },
         {
             "id": 104,
@@ -15259,7 +15363,8 @@
                         "GDEER0058 - ESTÁGIO SUPERVISIONADO (ENG. RENOVÁVEIS) - 180CH"
                     ]
                 }
-            }
+            },
+            "area": "Engenharias"
         },
         {
             "id": 105,
@@ -15349,7 +15454,8 @@
                         "DEECG0059 - SOCIOLOGIA INDUSTRIAL I - 45CH"
                     ]
                 }
-            }
+            },
+            "area": "Engenharias"
         },
         {
             "id": 106,
@@ -15475,7 +15581,8 @@
                         "1707540 - ESTÁGIO SUPERVISIONADO - 180CH"
                     ]
                 }
-            }
+            },
+            "area": "Engenharias"
         },
         {
             "id": 107,
@@ -15637,7 +15744,8 @@
                         "GDINF0132 - ESTÁGIO SUPERVISIONADO - CIÊNCIA DA COMPUTAÇÃO - 300CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Exatas e da Terra"
         },
         {
             "id": 108,
@@ -15746,7 +15854,8 @@
                         "GDCOC0108 - TRABALHO DE CONCLUSÃO DE CURSO - CIÊNCIA DE DADOS INT. ARTIFICIAL - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Exatas e da Terra"
         },
         {
             "id": 109,
@@ -15862,7 +15971,8 @@
                         "GDINF0129 - TRABALHO DE CONCLUSÃO DE CURSO - UV - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Exatas e da Terra"
         },
         {
             "id": 110,
@@ -16013,7 +16123,8 @@
                         "GDSCO0031 - ESTAGIO SUPERVISIONADO - ENGENHARIA DA COMPUTAÇÃO - 300CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Exatas e da Terra"
         },
         {
             "id": 111,
@@ -16129,7 +16240,8 @@
                         "GDCOC0062 - TRABALHO DE CONCLUSÃO DE CURSO (MATEMÁTICA COMPUTACIONAL) - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Exatas e da Terra"
         },
         {
             "id": 112,
@@ -16272,7 +16384,8 @@
                         "1704275 - TRABALHO DE CONCLUSÃO DE CURSO II - 300CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Sociais Aplicadas"
         },
         {
             "id": 113,
@@ -16343,7 +16456,8 @@
                         "DSCCG0049 - TEORIA DA COMPUTAÇÃO - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Exatas e da Terra"
         },
         {
             "id": 114,
@@ -16501,7 +16615,8 @@
                         "GDECV0114 - ESTÁGIO SUPERVISIONADO II (ENGENHARIA AMBIENTAL) - 150CH"
                     ]
                 }
-            }
+            },
+            "area": "Engenharias"
         },
         {
             "id": 115,
@@ -16580,7 +16695,8 @@
                         "DECCG0097 - CONSTRUÇÕES DE CONCRETO ARMADO - 90CH"
                     ]
                 }
-            }
+            },
+            "area": "Engenharias"
         },
         {
             "id": 116,
@@ -16731,7 +16847,8 @@
                         "GDECV0111 - TRABALHO DE CONCLUSÃO DE CURSO (ENGENHARIA CIVIL) - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Engenharias"
         },
         {
             "id": 117,
@@ -16889,7 +17006,8 @@
                         "1702189 - TRABALHO DE CONCLUSÃO DE CURSO - ENGENHARIA DE ALIMENTOS - 30CH"
                     ]
                 }
-            }
+            },
+            "area": "Engenharias"
         },
         {
             "id": 118,
@@ -16968,7 +17086,8 @@
                         "DEMATCG56 - ELETROTÉCNICA GERAL - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Engenharias"
         },
         {
             "id": 119,
@@ -17116,7 +17235,8 @@
                         "DENM00083 - ESTÁGIO SUPERVISIONADO EM ENGENHARIA DE MATERIAIS - 285CH"
                     ]
                 }
-            }
+            },
+            "area": "Engenharias"
         },
         {
             "id": 120,
@@ -17206,7 +17326,8 @@
                         "DEMICG068 - MANUTENÇÃO DE EQUIPAMENTOS - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Engenharias"
         },
         {
             "id": 121,
@@ -17346,7 +17467,8 @@
                         "GDPEQ0127 - PROCESSOS DE INDÚSTRIA QUÍMICA - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Engenharias"
         },
         {
             "id": 122,
@@ -17500,7 +17622,8 @@
                         "GDEPR0018 - ESTÁGIO SUPERVISIONADO - 90CH"
                     ]
                 }
-            }
+            },
+            "area": "Engenharias"
         },
         {
             "id": 123,
@@ -17586,7 +17709,8 @@
                         "DEMCG0103 - ELEMENTOS DE MÁQUINAS II - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Engenharias"
         },
         {
             "id": 124,
@@ -17747,7 +17871,8 @@
                         "GDEME0102 - TÓPICOS ESPECIAIS EM ENGENHARIA MECÂNICA (COMPLETAÇÃO DE POÇOS) - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Engenharias"
         },
         {
             "id": 125,
@@ -17835,7 +17960,8 @@
                         "DEQCG0074 - FÍSICA EXPERIMENTAL II - 45CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Exatas e da Terra"
         },
         {
             "id": 126,
@@ -18015,7 +18141,8 @@
                         "GDPEQ0124 - TRABALHO FINAL DO CURSO (TFC) - 60CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Exatas e da Terra"
         },
         {
             "id": 127,
@@ -18141,7 +18268,8 @@
                         "GDPEQ0117 - HIGIENE E LEGISLAÇÃO DE ALIMENTOS ( QUIMICA INDUSTRIAL) - 45CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Exatas e da Terra"
         },
         {
             "id": 128,
@@ -18257,7 +18385,8 @@
                         "GDGAS0086 - ESTÁGIO SUPERVISIONADO II - GASTRONOMIA - 300CH"
                     ]
                 }
-            }
+            },
+            "area": "Ciências Exatas e da Terra"
         },
         {
             "id": 129,
@@ -18363,7 +18492,8 @@
                         "GDPOA0045 - TRABALHO DE CONCLUSÃO DE CURSO - TECNOLOGIA DE ALIMENTOS - 90CH"
                     ]
                 }
-            }
+            },
+            "area": "Engenharias"
         },
         {
             "id": 130,
@@ -18464,7 +18594,8 @@
                         "1902040 - PLANEJAMENTO DAS INSTALAÇÕES - TEC. DE PRODUÇÃO SUCROALCOLEIRA - 45CH"
                     ]
                 }
-            }
+            },
+            "area": "Engenharias"
         }
     ]
 }

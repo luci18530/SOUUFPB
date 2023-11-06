@@ -1,18 +1,6 @@
 from django import forms
-from .models import Choice
 from django.contrib.auth.forms import UserCreationForm, AuthenticationForm
 from django.contrib.auth.models import User
-
-class QuestionarioForm(forms.ModelForm):
-    def __init__(self, *args, **kwargs):
-        perguntas = kwargs.pop('perguntas')
-        super(QuestionarioForm, self).__init__(*args, **kwargs)
-        
-        for question in perguntas:
-            self.fields[f'question_{question.id}'] = forms.ChoiceField(
-                label=question.question_text,
-                choices=Choice._meta.get_field('choice').choices
-            )
 
 class SignupForm(UserCreationForm):
 

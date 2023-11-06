@@ -25,22 +25,6 @@ class Pergunta(models.Model):
     def __str__(self):
         return self.pergunta
 
-# class Escolha(models.Model):
-#     pergunta = models.ForeignKey(Pergunta, on_delete=models.CASCADE)
-#     escolha = models.CharField(
-#         max_length=25,
-#         choices=(
-#             ('discordo_totalmente', '1'),
-#             ('discordo_parcialmente', '2'),
-#             ('neutro', '3'),
-#             ('concordo_parcialmente', '4'),
-#             ('concordo_totalmente', '5'),
-#         )
-#     )
-    
-#     def __str__(self):
-#         return self.escolha
-
 class Curso(models.Model):
 
     area = models.ForeignKey(Area, on_delete=models.CASCADE)
