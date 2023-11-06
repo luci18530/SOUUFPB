@@ -1,5 +1,5 @@
 from django.shortcuts import get_object_or_404, render
-from .models import Pergunta, Question, Choice, Curso, RelacaoDisciplinas, Disciplina
+from .models import Question, Choice, Curso, RelacaoDisciplinas, Disciplina
 from .forms import QuestionarioForm
 from .forms import SignupForm
 from django.contrib.auth import login, logout
@@ -31,7 +31,6 @@ def get_data(request):
 @login_required
 def teste(request):
     perguntas = Question.objects.all()
-    questoes = Pergunta.objects.all()
     paginator = Paginator(questoes, 5)
     page = request.GET.get('page', 1)
     if request.method == 'POST':

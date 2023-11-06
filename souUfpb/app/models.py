@@ -1,28 +1,17 @@
+from ast import mod
 from enum import auto
 from django.db import models
-import uuid
 
-
-class Base(models.Model):
-
-    uuid = models.UUIDField(primary_key=True, editable=False, default=uuid.uuid4())
-    created_at = models.DateField(auto_now=True)
-    updated_at = models.DateField(auto_now=True)
-
-    class Meta:
-        abstract = True
-
-
-class Question(Base):
+class Question(models.Model):
 
     question_text = models.CharField(max_length=200)
-    area = models.CharField(max_length=50, default="")
 
     def __str__(self):
         return self.question_text
 
-class Choice(Base):
-    question = models.ForeignKey(Question, on_delete=models.CASCADE)
+class Choice(models.Model):
+
+    question = models.ForeignKey(Question, on_delete=models.CASCADE, default="")
     choice = models.CharField(
         max_length=25,
         choices=(
@@ -33,11 +22,11 @@ class Choice(Base):
             ('concordo_totalmente', '5'),
         )
     )
-    
+
     def __str__(self):
         return self.choice
 
-class Curso(Base):
+class Curso(models.Model):
 
     nome = models.CharField(max_length=128)
     numPeriodos = models.IntegerField()
@@ -51,13 +40,11 @@ class Disciplina(models.Model):
     codigo = models.CharField(primary_key=True, max_length=32)
     nome = models.CharField(max_length=128)
     carga = models.IntegerField()
-    created_at = models.DateTimeField(auto_now=True)
-    updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
         return self.codigo
     
-class RelacaoDisciplinas(Base):
+class RelacaoDisciplinas(models.Model):
 
     curso = models.ForeignKey(Curso, on_delete=models.CASCADE)
     disciplina = models.ForeignKey(Disciplina, on_delete=models.CASCADE)
@@ -66,13 +53,10 @@ class RelacaoDisciplinas(Base):
     def __str__(self):
         return f'{self.curso.nome} - {self.periodo}º período - {self.disciplina.codigo}'
     
-class Pergunta(Base):
-    descricao = models.CharField(max_length=250)
-    opcao_1 = models.CharField(default='Nada interessado', editable=False)
-    opcao_2 = models.CharField(default='Pouco interessado', editable=False)
-    opcao_3 = models.CharField(default='Neutro', editable=False)
-    opcao_4 = models.CharField(default='Interessado', editable=False)
-    opcao_5 = models.CharField(default='Muito interessado', editable=False)
+class Area(models.Model):
 
-    def __str__(self):
-        return self.descricao
+    nome = models.CharField(max_length=55)
+    descricao = models.CharField(max_length=100)
+
+    def __str__(self) -> str:
+        return self.nome
