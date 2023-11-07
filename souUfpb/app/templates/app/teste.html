@@ -4,40 +4,43 @@
 
 {% block content %}
 
+<link rel="stylesheet" href="{% static 'css/teste.css' %}">
+<script type="text/javascript" src="{% static 'js/teste.js' %}" pg = "{{perguntas.number}}"></script>
+
 <h2 style="padding-bottom: 20px;" class="custom-title text-center">Teste vocacional</h2>
 
     {% for pergunta in perguntas %}
     <div class="container mb-4 py-2 border border-primary" style="border-radius: 0.7em">
         <div class="form-check">
-            <p class="mb-2"> {{ pergunta.descricao }}</p>
+            <p class="mb-2" style="font-weight: bold;"> {{ pergunta.pergunta }}</p>
             <div class="form-check">
-                <input class="form-check-input" type="radio" name="{{ pergunta.descricao }}" id="opcao_1" value="opcao_1">
-                <label class="form-check-label" for="opcao_1">
-                {{ pergunta.opcao_1 }}
+                <input class="input-radio" type="radio" name="{{ pergunta.id }}" id="opcao_1_{{ pergunta.id }}" value="-2">
+                <label class="form-check-label" for="opcao_1_{{ pergunta.id }}">
+                    <div class="radio-btn"></div><span>Discordo totalmente.</span>
                 </label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" type="radio" name="{{ pergunta.descricao }}" id="opcao_2" value="opcao_2">
-                <label class="form-check-label" for="opcao_2">
-                {{ pergunta.opcao_2 }}
+                <input class="input-radio" type="radio" name="{{ pergunta.id }}" id="opcao_2_{{ pergunta.id }}" value="-1">
+                <label class="form-check-label" for="opcao_2_{{ pergunta.id }}">
+                    <div class="radio-btn"></div><span>Discordo parcialmente.</span>
                 </label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" type="radio" name="{{ pergunta.descricao }}" id="opcao_3" value="opcao_3">
-                <label class="form-check-label" for="opcao_3">
-                {{ pergunta.opcao_3 }}
+                <input class="input-radio" type="radio" name="{{ pergunta.id }}" id="opcao_3_{{ pergunta.id }}" value="0">
+                <label class="form-check-label" for="opcao_3_{{ pergunta.id }}">
+                    <div class="radio-btn"></div><span>Neutro.</span>
                 </label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" type="radio" name="{{ pergunta.descricao }}" id="opcao_4" value="opcao_4">
-                <label class="form-check-label" for="opcao_4">
-                {{ pergunta.opcao_4 }}
+                <input class="input-radio" type="radio" name="{{ pergunta.id }}" id="opcao_4_{{ pergunta.id }}" value="1">
+                <label class="form-check-label" for="opcao_4_{{ pergunta.id }}">
+                    <div class="radio-btn"></div><span>Concordo parcialmente.</span>
                 </label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" type="radio" name="{{ pergunta.descricao }}" id="opcao_5" value="opcao_5">
-                <label class="form-check-label" for="opcao_5">
-                {{ pergunta.opcao_5 }}
+                <input class="input-radio" type="radio" name="{{ pergunta.id }}" id="opcao_5_{{ pergunta.id }}" value="2">
+                <label class="form-check-label" for="opcao_5_{{ pergunta.id }}">
+                    <div class="radio-btn"></div><span>Concordo totalmente.</span>
                 </label>
             </div>
         </div>
@@ -48,7 +51,7 @@
     {% if perguntas.has_other_pages %}
     <nav aria-label="paginacao">
         <ul class="pagination">
-            {% if users.has_previous %}
+            {% if perguntas.has_previous %}
             <li class="page-item"><a class="page-link" href="?page={{ perguntas.previous_page_number }}">&laquo;</a></li>
             {% else %}
             <li class="page-item disabled"><span class="page-link">&laquo;</span></li>

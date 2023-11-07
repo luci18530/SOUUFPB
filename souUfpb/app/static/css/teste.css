@@ -1,0 +1,45 @@
+label {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 10px;
+}
+
+.radio-btn {
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    border: 1px solid black;
+    display: block;
+    margin-right: 1rem;
+}
+
+.input-radio{
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+}
+
+input[type="radio"] + label {
+    color: black;
+    font-style: italic;
+}
+
+input[type="radio"]:checked + label span {
+    color: #3b99c1;
+    font-weight: bold;
+}
+
+input[type="radio"]:checked + label .radio-btn {
+    background: radial-gradient(circle, #3b99c1 45%, transparent 50%);
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10vh;
+}
