@@ -3,8 +3,60 @@
 {% load static %}
 {% block content %}
 
-<h2 style="padding-bottom: 20px;" class="custom-title text-center">Perfil</h2>
-    <p>E-mail cadastrado: {{ request.user.email }}</p>
-    <p>Nome: {{ request.user.username|default:"Não informado" }} </p>
+<style>
+    p {
+        
+        color: #333333;
+    }
+</style>
 
-{% endblock content %}
+<div class="row">
+    <div class="column w-50">
+        <h5 class="fw-bold custom-subtitle">Usuário</h5>
+        <p class="bs-light-bg-subtle">{{ request.user.username }} </p>
+    </div>
+    <div class="column w-50">
+        <h5 class="fw-bold custom-subtitle">E-mail</h5>
+        <p>{{ request.user.email }}</p>
+    </div>
+</div>
+<hr class="border border-primary border-2 opacity-50">
+<div class="row">
+    <h5 class="fw-bold custom-subtitle">Resultados do último teste vocacional</h5>
+    <div class="column w-100 mt-4">
+        <table class="table table-stripped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Exatas</th>
+                <th scope="col">Biológicas</th>
+                <th scope="col">Engenharias</th>
+                <th scope="col">Saúde</th>
+                <th scope="col">Agrárias</th>
+                <th scope="col">Linguística</th>
+                <th scope="col">Sociais</th>
+                <th scope="col">Humanas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Pontos</th>
+                <td>{{ resultado.exatas }}</td>
+                <td>{{ resultado.biologicas }}</td>
+                <td>{{ resultado.engenharias }}</td>
+                <td>{{ resultado.saude }}</td>
+                <td>{{ resultado.agrarias }}</td>
+                <td>{{ resultado.linguistica }}</td>
+                <td>{{ resultado.sociais }}</td>
+                <td>{{ resultado.humanas }}</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+</div>
+
+
+
+   
+
+{% endblock %}

@@ -10,6 +10,11 @@ body {
     color: rgb(59, 153, 193);
 }
 
+.custom-subtitle {
+    font-weight: bold; 
+    color: rgb(59, 153, 193);
+}
+
 #curso {
     text-decoration: none;
     color: rgb(59, 153, 193);
