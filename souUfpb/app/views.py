@@ -8,6 +8,7 @@ from django.contrib.auth.decorators import login_required
 from django.views.decorators.csrf import csrf_exempt
 from django.core import serializers
 from django.db.models import F
+import json
 from django.http import JsonResponse
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
@@ -50,12 +51,7 @@ def teste(request):
     questoes = Pergunta.objects.all()
     paginator = Paginator(questoes, 5)
     page = request.GET.get('page', 1)
-
-     # Serializar os objetos Pergunta em uma lista de dicionários
-    perguntas_serializadas = [{'pergunta': pergunta.pergunta, 'exatas': pergunta.exatas, 'biologicas': pergunta.biologicas, 'engenharias': pergunta.engenharias, 'saude': pergunta.saude, 'agrarias': pergunta.agrarias, 'linguistica': pergunta.linguistica, 'sociais': pergunta.sociais, 'humanas': pergunta.humanas} for pergunta in questoes]
-
-    # Converter a lista de dicionários em JSON
-    perguntas_serializadas_json = JSON.dumps(perguntas_serializadas)
+    perguntas_serializadas = json.dumps(list(questoes.values()))
 
     try:
         questoes = paginator.page(page)

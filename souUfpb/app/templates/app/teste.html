@@ -2,6 +2,7 @@
 {% load widget_tweaks %}
 {% load static %}
 
+
 {% block content %}
 
 <link rel="stylesheet" href="{% static 'css/teste.css' %}">
@@ -10,7 +11,7 @@
 <h2 style="padding-bottom: 20px;" class="custom-title text-center">Teste vocacional</h2>
 
     {% for pergunta in perguntas %}
-    <div class="container mb-4 py-2 border border-primary" style="border-radius: 0.7em">
+    <div id="perguntas" perguntas = "{{perguntas_serializadas}}" class="container mb-4 py-2 border border-primary" style="border-radius: 0.7em">
         <div class="form-check">
             <p class="mb-2" style="font-weight: bold;"> {{ pergunta.pergunta }}</p>
             <div class="form-check">

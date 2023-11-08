@@ -1,6 +1,5 @@
 var pagina = document.currentScript.getAttribute('pg');
 const csrf_token = document.currentScript.getAttribute('token');
-var perguntasData = [];
 
 // Função para salvar as seleções do usuário
 function salvarSelecoes() {
@@ -60,14 +59,12 @@ document.addEventListener('DOMContentLoaded', () => {
         salvarSelecoes();
         console.log(sessionStorage.length);
         if (verificarRespostas()) {
-            for (pergunta in perguntasData) {
-                console.log(pergunta);
-            }
             
-            // armazena as respostas e redireciona para perfil
+            var perguntas = JSON.parse(document.getElementById('perguntas').getAttribute('perguntas'));
+
             const xhr = new XMLHttpRequest();
             xhr.open('POST', '/salvar_respostas/', true);
-            xhr.setRequestHeader('X-CSRFToken', csrf_token);  // Certifique-se de incluir o token CSRF
+            xhr.setRequestHeader('X-CSRFToken', csrf_token); 
 
             var data = {'exatas': 0, 'biologicas': 0, 'engenharias': 0, 'saude': 0,
             'agrarias': 0, 'linguistica': 0, 'sociais': 0, 'humanas': 0}; 
@@ -78,26 +75,34 @@ document.addEventListener('DOMContentLoaded', () => {
                     const selecoes = JSON.parse(selecoesSalvas);
                     for (const name in selecoes) {
                         let value = Number(selecoes[name]);
-                        // data['exatas'] += value*exatas;
-                        // data['biologicas'] += value*biologicas;
-                        // data['engenharias'] += value*engenharias;
-                        // data['saude'] += value*saude;
-                        // data['agrarias'] += value*agrarias;
-                        // data['linguistica'] += value*linguistica;
-                        // data['sociais'] += value*sociais;
-                        // data['humanas'] += value*humanas;
-                        //var perguntas = JSON.parse(perguntasData);
-
-                        console.log(value);
+                        data['exatas'] += value*perguntas[i-1].exatas;
+                        data['biologicas'] += value*perguntas[i-1].biologicas;
+                        data['engenharias'] += value*perguntas[i-1].engenharias;
+                        data['saude'] += value*perguntas[i-1].saude;
+                        data['agrarias'] += value*perguntas[i-1].agrarias;
+                        data['linguistica'] += value*perguntas[i-1].linguistica;
+                        data['sociais'] += value*perguntas[i-1].sociais;
+                        data['humanas'] += value*perguntas[i-1].humanas;
                     }
                 }
             }
-            console.log(data);
+
+            var menor = Math.min(data['exatas'], data['biologicas'], data['engenharias'], data['saude'],
+            data['agrarias'], data['linguistica'], data['sociais'], data['humanas']);
+            if (menor < 0) {
+                data['exatas'] -= menor;
+                data['biologicas'] -= menor;
+                data['engenharias'] -= menor;
+                data['saude'] -= menor;
+                data['agrarias'] -= menor;
+                data['linguistica'] -= menor;
+                data['sociais'] -= menor;
+                data['humanas'] -= menor;
+            }
 
             xhr.send(JSON.stringify(data));
             xhr.onload = function () {
                 if (xhr.status === 200) {
-                    // Redirecione para a página de perfil ou outra página de destino
                     window.location.href = '/perfil/';
                 }
             };
