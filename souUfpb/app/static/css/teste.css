@@ -48,6 +48,6 @@ input[type="radio"]:checked + label .radio-btn {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 2vh;
+    padding-bottom: 4vh;
     width: auto;
 }

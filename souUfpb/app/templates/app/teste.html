@@ -49,6 +49,13 @@
         
     {% endfor %}
     
+    <div id="btn-enviar" class="{% if perguntas.has_next %}d-none{% else %}{% endif %}">
+        <div class="alert alert-danger" role="alert" id="alerta" style="display: none">
+            Por favor, marque todas as respostas antes de continuar!
+        </div>
+        <input class="btn btn-primary" id="enviar" type="submit" value="Enviar respostas">
+    </div>
+
     {% if perguntas.has_other_pages %}
     <nav aria-label="paginacao">
         <ul class="pagination">
@@ -73,11 +80,6 @@
     </nav>
     {% endif %}
     
-    <div id="btn-enviar">
-        <div class="alert alert-danger" role="alert" id="alerta" style="display: none">
-            Por favor, marque todas as respostas antes de continuar!
-        </div>
-        <input class="btn btn-primary" id="enviar" type="submit" value="Enviar respostas">
-    </div>
+   
     
     {% endblock content %}
