@@ -5,11 +5,28 @@ from django.contrib.auth import login, logout
 from django.contrib.auth.forms import AuthenticationForm
 from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
-from django.http import HttpResponse
-from django.urls import reverse
+from django.views.decorators.csrf import csrf_exempt
+from django.core import serializers
 from django.db.models import F
 from django.http import JsonResponse
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
+
+
+@csrf_exempt
+def salvar_respostas(request):
+    if request.method == 'POST':
+        usuario = request.user  
+        data = request.POST 
+
+        # Processar os dados e salvar as respostas no banco de dados
+        for pergunta_id, resposta in data.items():
+            pergunta = Pergunta.objects.get(id=pergunta_id)
+            resposta_obj = Resposta(usuario=usuario, pergunta=pergunta, resposta=resposta)
+            resposta_obj.save()
+
+        return redirect('app:perfil')
+    else:
+        return JsonResponse({'error': 'Método inválido'})
 
 def get_data(request):
     curso_id = request.GET.get('id', '')
@@ -34,6 +51,12 @@ def teste(request):
     paginator = Paginator(questoes, 5)
     page = request.GET.get('page', 1)
 
+     # Serializar os objetos Pergunta em uma lista de dicionários
+    perguntas_serializadas = [{'pergunta': pergunta.pergunta, 'exatas': pergunta.exatas, 'biologicas': pergunta.biologicas, 'engenharias': pergunta.engenharias, 'saude': pergunta.saude, 'agrarias': pergunta.agrarias, 'linguistica': pergunta.linguistica, 'sociais': pergunta.sociais, 'humanas': pergunta.humanas} for pergunta in questoes]
+
+    # Converter a lista de dicionários em JSON
+    perguntas_serializadas_json = JSON.dumps(perguntas_serializadas)
+
     try:
         questoes = paginator.page(page)
     except PageNotAnInteger:
@@ -41,7 +64,7 @@ def teste(request):
     except EmptyPage:
         questoes = paginator.page(paginator.num_pages)
 
-    return render(request, 'app/teste.html', {'page': 'teste', 'perguntas': questoes})
+    return render(request, 'app/teste.html', {'page': 'teste', 'perguntas': questoes, 'perguntas_serializadas': perguntas_serializadas})
 
 @login_required
 def cursos(request):

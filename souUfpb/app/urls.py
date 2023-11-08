@@ -13,5 +13,6 @@ urlpatterns = [
     path('teste/', views.teste, name='teste'),
     path('perfil/', views.perfil, name='perfil'),
     path('get_data/', views.get_data, name='get_data'),
+    path('salvar_respostas/', views.salvar_respostas, name='salvar_respostas'),
     path('cursos/<int:curso_id>/', views.detalhes_curso, name='detalhes_curso'),
 ]

@@ -41,5 +41,13 @@ input[type="radio"]:checked + label .radio-btn {
 .pagination {
     display: flex;
     justify-content: center;
+    padding-bottom: 0;
+}
+
+#btn-enviar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding-bottom: 10vh;
+    width: auto;
 }

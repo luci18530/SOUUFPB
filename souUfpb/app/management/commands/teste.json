@@ -329,6 +329,17 @@
             "linguistica": 0,
             "sociais": 2,
             "humanas": 1
+        },
+        {
+            "pergunta": "Tenho grande fascínio pela música e seu impacto emocional nas pessoas.",
+            "exatas": 0,
+            "biologicas": 0,
+            "engenharias": 0,
+            "saude": 0,
+            "agrarias": 0,
+            "linguistica": 2,
+            "sociais": 1,
+            "humanas": 2
         }
     ]
 }

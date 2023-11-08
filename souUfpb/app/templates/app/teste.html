@@ -5,7 +5,7 @@
 {% block content %}
 
 <link rel="stylesheet" href="{% static 'css/teste.css' %}">
-<script type="text/javascript" src="{% static 'js/teste.js' %}" pg = "{{perguntas.number}}"></script>
+<script type="text/javascript" src="{% static 'js/teste.js' %}" pg = "{{perguntas.number}}" token="{% csrf_token %}"></script>
 
 <h2 style="padding-bottom: 20px;" class="custom-title text-center">Teste vocacional</h2>
 
@@ -71,5 +71,12 @@
         </ul>
     </nav>
     {% endif %}
-    
+
+    <div id="btn-enviar">
+        <div class="alert alert-danger" role="alert" id="alerta" style="display: none">
+            Por favor, marque todas as respostas antes de continuar!
+        </div>
+        <input class="btn btn-primary" id="enviar" type="submit" value="Enviar respostas">
+    </div>
+
 {% endblock content %}
