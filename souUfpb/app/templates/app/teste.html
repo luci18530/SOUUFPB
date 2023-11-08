@@ -48,16 +48,7 @@
     </div>
         
     {% endfor %}
-
-    {% if not perguntas.has_next %}
-    <div id="btn-enviar">
-        <div class="alert alert-danger" role="alert" id="alerta" style="display: none">
-            Por favor, marque todas as respostas antes de continuar!
-        </div>
-        <input class="btn btn-primary" id="enviar" type="submit" value="Enviar respostas">
-    </div>
-    {% endif %}
-
+    
     {% if perguntas.has_other_pages %}
     <nav aria-label="paginacao">
         <ul class="pagination">
@@ -68,19 +59,25 @@
             {% endif %}
             {% for i in perguntas.paginator.page_range %}
             {% if perguntas.number == i %}
-                <li class="page-item active"><span class="page-link">{{ i }} <span class="sr-only">(current)</span></span></li>
+            <li class="page-item active"><span class="page-link">{{ i }} <span class="sr-only">(current)</span></span></li>
             {% else %}
                 <li class="page-item"><a class="page-link" href="?page={{ i }}">{{ i }}</a></li>
             {% endif %}
             {% endfor %}
             {% if perguntas.has_next %}
-                <li class="page-item"><a class="page-link" href="?page={{ perguntas.next_page_number }}">&raquo;</a></li>
+            <li class="page-item"><a class="page-link" href="?page={{ perguntas.next_page_number }}">&raquo;</a></li>
             {% else %}
-                <li class="page-item disabled"><span class="page-link">&raquo;</span></li>
+            <li class="page-item disabled"><span class="page-link">&raquo;</span></li>
             {% endif %}
         </ul>
     </nav>
     {% endif %}
-
-
-{% endblock content %}
+    
+    <div id="btn-enviar">
+        <div class="alert alert-danger" role="alert" id="alerta" style="display: none">
+            Por favor, marque todas as respostas antes de continuar!
+        </div>
+        <input class="btn btn-primary" id="enviar" type="submit" value="Enviar respostas">
+    </div>
+    
+    {% endblock content %}

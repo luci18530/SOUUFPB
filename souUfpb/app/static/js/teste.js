@@ -56,13 +56,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // Aguarda evento de clique no botão de enviar
     const botaoEnviar = document.querySelector('#enviar');
     botaoEnviar.addEventListener('click', () => {
+
         salvarSelecoes();
-        console.log(sessionStorage.length);
         if (verificarRespostas()) {
             
             var perguntas = JSON.parse(document.getElementById('perguntas').getAttribute('perguntas'));
 
-            
             var data = {'exatas': 0, 'biologicas': 0, 'engenharias': 0, 'saude': 0,
             'agrarias': 0, 'linguistica': 0, 'sociais': 0, 'humanas': 0}; 
             
@@ -84,6 +83,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
             
+            sessionStorage.clear();
+
             var menor = Math.min(data['exatas'], data['biologicas'], data['engenharias'], data['saude'],
             data['agrarias'], data['linguistica'], data['sociais'], data['humanas']);
             if (menor < 0) {
@@ -100,8 +101,8 @@ document.addEventListener('DOMContentLoaded', () => {
             const xhr = new XMLHttpRequest();
             xhr.open('POST', '/salvar_resultado/', true);
             xhr.setRequestHeader('X-CSRFToken', csrf_token); 
-            console.log(data);
             xhr.send(JSON.stringify(data));
+
             xhr.onload = function () {
                 if (xhr.status === 200) {
                     window.location.href = '/perfil/';
