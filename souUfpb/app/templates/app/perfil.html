@@ -10,24 +10,33 @@
     }
 </style>
 
-<div class="row">
-    <div class="column w-50">
-        <h5 class="fw-bold custom-subtitle">Usuário</h5>
-        <p class="bs-light-bg-subtle">{{ request.user.username }} </p>
+<div class="column">
+    <div class="row">
+        <div class="column w-100">
+            <h5 class="fw-bold custom-subtitle">DADOS CADASTRAIS</h5>
+        </div>
     </div>
-    <div class="column w-50">
-        <h5 class="fw-bold custom-subtitle">E-mail</h5>
-        <p>{{ request.user.email }}</p>
+    <hr>
+    <div class="row">
+        <h6 class="fw-bold custom-subtitle">Usuário:&nbsp;</h6>
+        <h6 class="bs-light-bg-subtle">{{ request.user.username }} </h6>
+    </div>
+    <div class="row">
+        <h6 class="fw-bold custom-subtitle">E-mail:&nbsp;</h6>
+        <h6>{{ request.user.email }}</h6>
     </div>
 </div>
-<hr class="border border-primary border-2 opacity-50">
+<hr>
 <div class="row">
-    <h5 class="fw-bold custom-subtitle">Resultados do último teste vocacional</h5>
+    <div class="column w-100">
+        <h5 class="fw-bold custom-subtitle">RESULTADOS DO ÚLTIMO TESTE VOCACIONAL</h5>
+    </div>
+    
     <div class="column w-100 mt-4">
-        <table class="table table-stripped">
+        <table class="table table-bordered table-hover">
             <thead>
               <tr>
-                <th scope="col">#</th>
+                <th scope="col"></th>
                 <th scope="col">Exatas</th>
                 <th scope="col">Biológicas</th>
                 <th scope="col">Engenharias</th>
