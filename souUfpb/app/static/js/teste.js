@@ -62,10 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             var perguntas = JSON.parse(document.getElementById('perguntas').getAttribute('perguntas'));
 
-            const xhr = new XMLHttpRequest();
-            xhr.open('POST', '/salvar_respostas/', true);
-            xhr.setRequestHeader('X-CSRFToken', csrf_token); 
-
+            
             var data = {'exatas': 0, 'biologicas': 0, 'engenharias': 0, 'saude': 0,
             'agrarias': 0, 'linguistica': 0, 'sociais': 0, 'humanas': 0}; 
             
@@ -86,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 }
             }
-
+            
             var menor = Math.min(data['exatas'], data['biologicas'], data['engenharias'], data['saude'],
             data['agrarias'], data['linguistica'], data['sociais'], data['humanas']);
             if (menor < 0) {
@@ -99,7 +96,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 data['sociais'] -= menor;
                 data['humanas'] -= menor;
             }
-
+            
+            const xhr = new XMLHttpRequest();
+            xhr.open('POST', '/salvar_resultado/', true);
+            xhr.setRequestHeader('X-CSRFToken', csrf_token); 
+            console.log(data);
             xhr.send(JSON.stringify(data));
             xhr.onload = function () {
                 if (xhr.status === 200) {

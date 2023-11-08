@@ -1,30 +1,43 @@
+import json
 from django.shortcuts import get_object_or_404, render
-from .models import Pergunta, Curso, RelacaoDisciplinas, Disciplina, Area
+from .models import Pergunta, Curso, RelacaoDisciplinas, Disciplina, Area, Resultado
 from .forms import SignupForm
 from django.contrib.auth import login, logout
 from django.contrib.auth.forms import AuthenticationForm
 from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
 from django.views.decorators.csrf import csrf_exempt
-from django.core import serializers
 from django.db.models import F
-import json
 from django.http import JsonResponse
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 
 @csrf_exempt
-def salvar_respostas(request):
+def salvar_resultado(request):
     if request.method == 'POST':
         usuario = request.user  
-        data = request.POST 
+        data = json.loads(request.body.decode('utf-8'))
 
-        # Processar os dados e salvar as respostas no banco de dados
-        for pergunta_id, resposta in data.items():
-            pergunta = Pergunta.objects.get(id=pergunta_id)
-            resposta_obj = Resposta(usuario=usuario, pergunta=pergunta, resposta=resposta)
-            resposta_obj.save()
+        pontuacoes = []
+        for area, pontuacao in data.items():
+            pontuacoes.append(pontuacao)
 
+        try:
+            resultado = Resultado.objects.get(user=usuario)
+        except Resultado.DoesNotExist:
+            resultado = Resultado(exatas=pontuacoes[0], biologicas=pontuacoes[1], engenharias=pontuacoes[2], saude=pontuacoes[3],\
+                        agrarias=pontuacoes[4], linguistica=pontuacoes[5], sociais=pontuacoes[6], humanas=pontuacoes[7], user=usuario)
+        else:
+            resultado.exatas = pontuacoes[0]
+            resultado.biologicas = pontuacoes[1]
+            resultado.engenharias = pontuacoes[2]
+            resultado.saude = pontuacoes[3]
+            resultado.agrarias = pontuacoes[4]
+            resultado.linguistica = pontuacoes[5]
+            resultado.sociais = pontuacoes[6]
+            resultado.humanas = pontuacoes[7]
+
+        resultado.save()
         return redirect('app:perfil')
     else:
         return JsonResponse({'error': 'Método inválido'})
